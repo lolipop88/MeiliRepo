@@ -1,0 +1,8 @@
+Origin: MeiliRepo
+Label: MeiliRepo
+Suite: stable
+Version: 1.0
+Codename: Meili
+Architectures: iphoneos-arm
+Components: main
+Description: MeiliRepo

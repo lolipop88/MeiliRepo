@@ -1,0 +1,44 @@
+Package: com.atwiiks.betterccxi
+Name: BetterCCXI
+Version: 1.6.0
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Installed-Size: 640
+Author: ATWiiks
+Maintainer: ATWiiks
+Description: Enhance your control center on iOS 11 and iOS 12
+Filename: debs/5d95efa3c97131001a27a7ff.deb
+Depiction: https://imnotsatan.github.io/depictions/com.atwiiks.betterccxi.html
+Icon: https://imnotsatan.github.io/icons/com.atwiiks.betterccxi.png
+Size: 79028
+MD5sum: c8fc47f39792a8ec97345238f2123344
+SHA1: 1e5d92b8e0eed1937f8f204dd479c685dc3acfd1
+SHA256: f0a061b5162700e236692ed7e4a6eb3ea249046012485e9a5807a6faa4e157bc
+SHA521: 480411f9103ecec8bf5ae3fe6989e4b2b226ceb7962be8a9201ee2b78d0a54b06e622b930018201d8583a5ded80564830dcb7b7edfcac555d633c03efe5540e0
+
+Author: candoizo <andreasmgott@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Bolders
+Package: ca.ndoizo.bolders
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), com.chpwn.iconsupport, preferenceloader
+Section: Tweaks
+Installed-Size: 488
+Version: 1.2.2-2
+Architecture: iphoneos-arm
+Description: Bigger bolder folders
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=boldersDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=boldersDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: candoizo
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/BoldersPrefs.bundle/Icon/Icon@2x.png
+Filename: debs/bolders_1.2.2-2.deb
+Depiction: https://imnotsatan.github.io/depictions/ca.ndoizo.bolders.html
+Icon: https://imnotsatan.github.io/icons/ca.ndoizo.bolders.png
+Size: 66614
+MD5sum: f44a4f549c31c5b4f8a6c20de8f49190
+SHA1: 4a373316e50c4cb8f85137b8208e6c3556df6a25
+SHA256: 0a8215038f48d7f9c6717ffd9ebdba4ab2b469fa1892051d72ff99f867a08aed
+SHA521: cb0709814916ea908638f1401707346c1cefbf4cec89360c5a05a2deb0a4ffae2db653549b149a0caabe46a1a80c746d0fe2bf5159d595d77405f7d27e552a67
+

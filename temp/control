@@ -1,0 +1,16 @@
+Author: candoizo <andreasmgott@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Bolders
+Package: ca.ndoizo.bolders
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), com.chpwn.iconsupport, preferenceloader
+Section: Tweaks
+Installed-Size: 488
+Version: 1.2.2-2
+Architecture: iphoneos-arm
+Description: Bigger bolder folders
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=boldersDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=boldersDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: candoizo
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/BoldersPrefs.bundle/Icon/Icon@2x.png
