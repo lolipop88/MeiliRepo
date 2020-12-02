@@ -1,3 +1,80 @@
+Package: com.ioscreatix.sugarcane
+Name: SugarCane
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Get percentages for the sliders in the Control Center on iOS 11
+Maintainer: iOS Creatix
+Author: iOS Creatix
+Section: Tweaks
+Version: 1.0.0
+Installed-Size: 120
+Filename: debs/5aa9d27a1318fd403b12c573.deb
+Depiction: https://imnotsatan.github.io/depictions/com.ioscreatix.sugarcane.html
+Icon: https://imnotsatan.github.io/icons/com.ioscreatix.sugarcane.png
+Size: 5490
+MD5sum: 4a62025d6fa34a4e7bc9a4497303a70d
+SHA1: 3f256747f61034ed9af82b633173f1c3130e514b
+SHA256: 01f88237654818cef6fc0ebf29afdeed5f5a8fd4ce48eb34086ccfe092d3bde1
+SHA521: ea26f916002f3583151856500c056cf44a64e4e9583fde98fb349af6e36ae09bd358d390d27ec9523c5742fc6ef8bdfcb180ad015d82d8233492d19bd5870acf
+
+Package: com.muirey03.smallsiri
+Name: SmallSiri
+Version: 1.2.2
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Installed-Size: 440
+Author: Muirey03
+Maintainer: Muirey03
+Description: Make siri smaller and unobtrusive!
+Filename: debs/5cc8a96b6ee9f4001aa2016f.deb
+Depiction: https://imnotsatan.github.io/depictions/com.muirey03.smallsiri.html
+Icon: https://imnotsatan.github.io/icons/com.muirey03.smallsiri.png
+Size: 159466
+MD5sum: 1ed769c351ed776a0357d98951f34ac4
+SHA1: 762b013a702cd32ef7bdd801b00273b0f85aa0a7
+SHA256: c3be148bb4db81726f209f47599a18138128c0f4433525224be10d565227d114
+SHA521: cf44ab90ca86d11d58652540b2c133dd5a4936b9ffbba58ecd98f110c9de4ed9f3982fce9d1bced8b61309a4bd1ae79549a3737d2bc484a383c0639388015f43
+
+Package: com.imkpatil.cclinker
+Name: CCLinker
+Version: 1.2.1
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate,com.spark.libsparkapplist
+Installed-Size: 336
+Author: P2KDev <p2kdev@gmail.com>
+Maintainer: P2KDev <p2kdev@gmail.com>
+Description: Open the settings pane for the CC Toggles by using gestures!
+Icon: file:///Library/Application Support/CCLinker/icon.png
+Filename: debs/5cc9187bb697d3001afdc437.deb
+Depiction: https://imnotsatan.github.io/depictions/com.imkpatil.cclinker.html
+Icon: https://imnotsatan.github.io/icons/com.imkpatil.cclinker.png
+Size: 26370
+MD5sum: 49db733864a53b91b55ce34c494399ff
+SHA1: d578baa27b9dad4fefce38b503746c5004e83b8a
+SHA256: e2211432404538091638d1080fa0ed92f70bc2c51805a06365d932760d044610
+SHA521: e8f4c2849a6b46eaeb73e202288df8a2821ff65069e3967336030ddd4a3a59f25104d104b091d6c80e2d5d0132a9d0a6dcb25d4ced3f68b01e30176599991cce
+
+Package: com.atwiiks.betterccxiweather
+Name: BetterCCXI (Weather Addon)
+Version: 1.0.3
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, com.atwiiks.betterccxi
+Installed-Size: 172
+Author: ATWiiks
+Maintainer: ATWiiks
+Description: Weather Module for BetterCCXI
+Filename: debs/5d201f3c6f5ead001b791321.deb
+Depiction: https://imnotsatan.github.io/depictions/com.atwiiks.betterccxiweather.html
+Icon: https://imnotsatan.github.io/icons/com.atwiiks.betterccxiweather.png
+Size: 15150
+MD5sum: 80317fb050044293504711515c9e2290
+SHA1: 38872b54a876383c32f3c9ba82a00c1adf47b0f6
+SHA256: ed809073ba40ff2f5097ccf68939030c81ae65c798d4560fde7c3ed5dafe642e
+SHA521: d012326cbd9190e07a3d8a595639f93b48009feb6b315e20c154516265fd1f98e854e28ef837ad064095654eac71ff208b8cc6cbec57a82d65170bbe590ba524
+
 Package: com.atwiiks.betterccxi
 Name: BetterCCXI
 Version: 1.6.0
@@ -16,6 +93,25 @@ MD5sum: c8fc47f39792a8ec97345238f2123344
 SHA1: 1e5d92b8e0eed1937f8f204dd479c685dc3acfd1
 SHA256: f0a061b5162700e236692ed7e4a6eb3ea249046012485e9a5807a6faa4e157bc
 SHA521: 480411f9103ecec8bf5ae3fe6989e4b2b226ceb7962be8a9201ee2b78d0a54b06e622b930018201d8583a5ded80564830dcb7b7edfcac555d633c03efe5540e0
+
+Package: com.xcxiao.simplels2
+Name: SimpleLS2
+Version: 1.3.1-6
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Installed-Size: 2524
+Author: XCXiao
+Maintainer: XCXiao
+Description: SimpleLS
+Filename: debs/5e7189ee682928001a2be6ad.deb
+Depiction: https://imnotsatan.github.io/depictions/com.xcxiao.simplels2.html
+Icon: https://imnotsatan.github.io/icons/com.xcxiao.simplels2.png
+Size: 850896
+MD5sum: 55020fdf3b9dc5c4cbd3b3867ff1f57c
+SHA1: 0eaf3591390de8e7b6408cf152a5657631f9631f
+SHA256: c2d9851832cd7ed3a8a62e5364eb8fd43e7613009e2a016bf272beae2b9ba221
+SHA521: be88d5fdd1c94b88aa04f8462c7d29d3d457f23b57417eaf22622402480b6327ef9d99d1695c1f1885a24f4945a83340c1eda9577cccced3cff10ef9a239b70e
 
 Author: candoizo <andreasmgott@gmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -41,4 +137,90 @@ MD5sum: f44a4f549c31c5b4f8a6c20de8f49190
 SHA1: 4a373316e50c4cb8f85137b8208e6c3556df6a25
 SHA256: 0a8215038f48d7f9c6717ffd9ebdba4ab2b469fa1892051d72ff99f867a08aed
 SHA521: cb0709814916ea908638f1401707346c1cefbf4cec89360c5a05a2deb0a4ffae2db653549b149a0caabe46a1a80c746d0fe2bf5159d595d77405f7d27e552a67
+
+Package: com.creaturecoding.shuffle
+Name: shuffle
+Depends: mobilesubstrate, com.creaturecoding.libcspreferences
+Replaces: com.cpdigitaldarkroom.placeholder
+Conflicts: com.cpdigitaldarkroom.placeholder
+Architecture: iphoneos-arm
+Description: Mix up your preferences
+Depiction: https://creaturesurvive.github.io/repo/cydia/shuffle/depiction/
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: Tweaks
+Version: 0.8.0b
+Installed-Size: 472
+Filename: debs/com.creaturecoding.shuffle_0.8.0b_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.creaturecoding.shuffle.html
+Icon: https://imnotsatan.github.io/icons/com.creaturecoding.shuffle.png
+Size: 90978
+MD5sum: 1d1c28d18a3073ccaa3014b235944ebf
+SHA1: 36c65c53bf3c06dc75f55378ec509cc6e34bfd77
+SHA256: bbea0d69707d96d51559d8a49937b097e91af6292d4eb2912aebc55f69da7d8f
+SHA521: e0afe4e94d5a79307fb63bfd4f17b7bfde41e96a5057510a9339f26e938745ac5929c718cea411d6718d107c7433026cf4f391a757c322b64b21118c14cc9b86
+
+Package: com.shiftcmdk.pencilchargingindicator
+Name: PencilChargingIndicator
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Make charging less boring with the Apple Pencil charging animation from the iPad Pro 2018.
+Maintainer: shiftcmdk
+Author: shiftcmdk
+Section: Tweaks
+Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.pencilchargingindicator
+Version: 1.2~b7
+Installed-Size: 3592
+Filename: debs/com.shiftcmdk.pencilchargingindicator_1.2_b7_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.shiftcmdk.pencilchargingindicator.html
+Icon: https://imnotsatan.github.io/icons/com.shiftcmdk.pencilchargingindicator.png
+Size: 378932
+MD5sum: 43d42846a6ae58f0c641b13000d762e3
+SHA1: 4828bcef31c915881b03023e6df34da56dd0c050
+SHA256: 023ff8fd7d4a2fa855e38905c844dea1fde60b55f1b2dc79c709bb2c0835b145
+SHA521: cb86bbe64e82c45b3f296bc98eb01544a05a48ae6f41bd5a337912c881e21f09090e2c836fa5f71aa6d926aea31e25a0801d00a5b018e04e36dbee80525a1367
+
+Package: com.smokin1337.blurification
+Name: Blurification
+Depends: mobilesubstrate
+Depiction: https://idevicehacked.com/depictions/?p=com.smokin1337.blurification
+SileoDepiction: https://idevicehacked.com/depictions/com.smokin1337.blurification/Blurification
+Architecture: iphoneos-arm
+Description: Protect your notifications!
+Maintainer: smokin1337 <smokin1337@gmail.com>
+Author: smokin1337 <smokin1337@gmail.com>
+Section: Tweaks
+Icon: https://idevicehacked.com/depictions/com.smokin1337.blurification/icon.png
+Version: 1.0.2
+Installed-Size: 1548
+Filename: debs/com.smokin1337.blurification_1.0.2_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.smokin1337.blurification.html
+Icon: https://imnotsatan.github.io/icons/com.smokin1337.blurification.png
+Size: 377654
+MD5sum: 56239a25c212e28bad50f79301a48f17
+SHA1: d7fe3d3f0d29ccea6484bb329e95e899934ff861
+SHA256: 1a6149f038d694c45ec3f86ea7f418047a09c7ddc729555a3ac56c714d1ddcf2
+SHA521: 8d018306273d9b21bce52fe0d679d2badcb14ff6ce6df05d0e9a1c1247aa543cdfe03e56f88d1a87e1944e25a53a925f365ca41e062f7b71ba51ba53560d93cf
+
+Package: xyz.skitty.sixls
+Name: Six (LS)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Architecture: iphoneos-arm
+Description: iOS 6 Style Lock Screen!
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.sixls
+SileoDepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.sixls
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.sixls.png
+Maintainer: Skitty
+Author: Skitty
+Section: Tweaks
+Version: 1.0.5-2
+Installed-Size: 2024
+Filename: debs/xyz.skitty.sixls_1.0.5-2_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/xyz.skitty.sixls.html
+Icon: https://imnotsatan.github.io/icons/xyz.skitty.sixls.png
+Size: 1416370
+MD5sum: 5190818a722d55d1fda6baece81f9340
+SHA1: ec051b3f96c9b12506e8a1f2bd94732ad4708098
+SHA256: 60571b7d8d9002ea650e69944975a0cec11e67b786af3e1e6d6216c5cdf6b72a
+SHA521: bdce7ef068555285d477468f69d28adc6c8793f33503a3dce394bd7b730964029337ce9fd753c73cc03d78a6c9412681b8686467c7f3e375b966f69488b40e41
 
