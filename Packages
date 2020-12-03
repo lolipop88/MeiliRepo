@@ -1,3 +1,22 @@
+Package: xyz.xninja.systeminfo
+Name: System Info
+Depends: mobilesubstrate
+Version: 2.7.2-2
+Architecture: iphoneos-arm
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
+Depiction: https://arx8x.github.io/depictions/systeminfo.html
+Maintainer: ARX8x
+Author: ARX8x
+Section: Tweaks
+Filename: debs/xyz.xninja.systeminfo_2.7.2-2_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/xyz.xninja.systeminfo.html
+Icon: https://imnotsatan.github.io/icons/xyz.xninja.systeminfo.png
+Size: 427612
+MD5sum: 26267e8c4797962bd17d57670951021b
+SHA1: 54b7685148da7e599f42429d3a7d4d721b9a8aad
+SHA256: 7b27623082c52e8ce6a2dd990169b49f6f3445e6d95012384b461c8e4b9a20cc
+SHA521: 4995c29cc9b3ffb96f27879df1d7eaa9824f8560302506b6adb905516980fdae132428cdc5dab92b1b19d2f0f473e06cf90562965debfcfc7950360c7ec8aa97
+
 Package: xyz.willy.zebra
 Name: Zebra
 Architecture: iphoneos-arm
@@ -21,6 +40,28 @@ SHA1: cf4a3266a02ef6419332014bf10f17f80c2c56c7
 SHA256: e260b6af3181a165009a76a054042394377bcdb4cdaf2333c8174d972f11610a
 SHA521: 37d9bc546fae7bd75d59f9bc59e1a6b00385f93efbad537c736ee10221570f2b8f9a67e869e6e9d398f182a64e10780835f3515769c90d89f2f6eee83cccb72c
 
+Package: xyz.skitty.spectrum
+Name: Spectrum
+Depends: mobilesubstrate, libskittycolor, firmware (>= 13.0)
+Architecture: iphoneos-arm
+Description: Customize system colors!
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.spectrum
+SileoDepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.spectrum
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.spectrum.png
+Maintainer: Skitty
+Author: Skitty & EvenDev
+Section: Tweaks
+Version: 1.0.1-1
+Installed-Size: 472
+Filename: debs/xyz.skitty.spectrum_1.0.1-1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/xyz.skitty.spectrum.html
+Icon: https://imnotsatan.github.io/icons/xyz.skitty.spectrum.png
+Size: 40974
+MD5sum: 29540d1b21dbc2d744bbdd1408fd211f
+SHA1: 53ff251a5fe61e828c81d01108ca1c6b0a89c3c5
+SHA256: eae1900c8d41d7194dd568b197dcb8767af10e219f2138637b7b646b522a0059
+SHA521: f35359b58d06eb75f346ad1d526fc1a93e951b4be923a9709a19a48b0054b3ef01bcfe257da07e3496426a1e7faddd1311174c1d3e0b0b3e2e225ede5843a21b
+
 Package: xyz.skitty.sixls
 Name: Six (LS)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
@@ -42,6 +83,505 @@ MD5sum: 5190818a722d55d1fda6baece81f9340
 SHA1: ec051b3f96c9b12506e8a1f2bd94732ad4708098
 SHA256: 60571b7d8d9002ea650e69944975a0cec11e67b786af3e1e6d6216c5cdf6b72a
 SHA521: bdce7ef068555285d477468f69d28adc6c8793f33503a3dce394bd7b730964029337ce9fd753c73cc03d78a6c9412681b8686467c7f3e375b966f69488b40e41
+
+Package: xyz.skitty.lightsout
+Name: LightsOut
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Toggle dark mode/night shift with the light sensor!
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.lightsout
+SileoDepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.lightsout
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.lightsout.png
+Maintainer: Skitty
+Author: Skitty
+Section: Tweaks
+Version: 1.0
+Installed-Size: 288
+Filename: debs/xyz.skitty.lightsout_1.0_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/xyz.skitty.lightsout.html
+Icon: https://imnotsatan.github.io/icons/xyz.skitty.lightsout.png
+Size: 16182
+MD5sum: 28394be8ab1d888d3eaa94561f3d1d5d
+SHA1: 81cce7a01dd5f632a3a7893852c102aca70c8786
+SHA256: ab0920724c2721ba95dd95492cd0059bcd5e9e4c93cbbf7df4dde1f31fc76936
+SHA521: 007862906adc04fdbc9c663c53484a6ba3470213ed5bc78d3ff1ca83ffd06f382e2bc83e6e6b285b4689fab217eabaa10022dd0aae53a9c77e19cc4505e19e55
+
+Package: xyz.skitty.dragenabler
+Name: DragEnabler
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: Enable iPad drag and drop features.
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.dragenabler
+SileoDepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.dragenabler
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.dragenabler.png
+Maintainer: Skitty
+Author: Skitty
+Section: Tweaks
+Version: 1.0
+Installed-Size: 288
+Filename: debs/xyz.skitty.dragenabler_1.0_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/xyz.skitty.dragenabler.html
+Icon: https://imnotsatan.github.io/icons/xyz.skitty.dragenabler.png
+Size: 11304
+MD5sum: 06c6b3dfbcbf59aee695d820fec5bdb0
+SHA1: d9c2040873c3ed6593ce0d5432d4a6a4af55215b
+SHA256: 29c0e6af1af34bdccd2b13aee4164a902ff3bec0550e769e09050348ccca44f8
+SHA521: b3566a34413c0ff8f7b4689b402e70878d88548d36fcdefbaa10d1a82ae8d8bd7e32dac2762a1248132c5fbf957c2d51123e8c76f82828647a4bfb1c7d57054a
+
+Package: xyz.skitty.darkshot
+Name: DarkShot
+Depends: mobilesubstrate, firmware (>= 13.0)
+Architecture: iphoneos-arm
+Description: Darken the screenshot flash color!
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.darkshot
+SileoDepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.darkshot
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.darkshot.png
+Maintainer: Skitty
+Author: Skitty
+Section: Tweaks
+Version: 1.0
+Installed-Size: 320
+Filename: debs/xyz.skitty.darkshot_1.0_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/xyz.skitty.darkshot.html
+Icon: https://imnotsatan.github.io/icons/xyz.skitty.darkshot.png
+Size: 14528
+MD5sum: 1b6c270e18c0d496c520a63ced769d34
+SHA1: be7a68d7d370b18ffd1fd9e896307e11deaacc47
+SHA256: 1fdabdef60333af601b695879118b2beaa3b8913fa8385ab89593d907335078e
+SHA521: 50b3ce3a9640840a7e8a25554f7dd93d51bf688e9afa07760b6904ad5eae091cdd570a0c1ea2be73f65ecb3c5e7d038d8750ade973fc7d53e9128546010b6c8a
+
+Package: xyz.burritoz.thomz.multiplalite
+Name: Multipla Lite
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: xyz.burritoz.thomz.multipla, com.bengiannis.primo, com.eswick.harbor3, com.spark.vesta
+Replaces: xyz.burritoz.thomz.multipla
+Version: 1.1.1~lite5
+Architecture: iphoneos-arm
+Description: Power to your Dock
+Maintainer: Thomz and burrit0z <carsonzielinski@gmail.com>
+Author: Thomz and burrit0z <carsonzielinski@gmail.com>
+Section: Tweaks
+Icon: https://chariz.com/cdn/icon/multipla-lite/icon@3x.png
+Depiction: https://repo.chariz.com/package/xyz.burritoz.thomz.multiplalite/
+Tag: compatible_min::ios11.0
+Installed-Size: 1842
+Filename: debs/xyz.burritoz.thomz.multiplalite_1.1.1_lite5_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/xyz.burritoz.thomz.multiplalite.html
+Icon: https://imnotsatan.github.io/icons/xyz.burritoz.thomz.multiplalite.png
+Size: 956564
+MD5sum: 21c250b49f60cc58261c7eb256c5e1c9
+SHA1: f140dbaba185fdd758b2d04c428403f866995004
+SHA256: 59770a4b25db7e0707dc27163957cf245f8ca989516ebc80fd89c2769a83c998
+SHA521: f789bf905fe1e5a6b934b6a84c17493384f9e85af1829462a6d7d5972693d166a64f1adfd3b457d0be41681aaa2f37487d2fe2a06697c13e81383e37d272e45e
+
+Package: com.peterdev.xeon
+Name: Xeon
+Version: 1.1.1
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0), cy+cpu.arm64, com.rpetrich.rocketbootstrap (>= 1.0.7~beta1), com.muirey03.libimagepicker
+Provides: com.alexzielenski.zeppelin
+Installed-Size: 2596
+Author: PeterDev <djperter@icloud.com>
+Maintainer: PeterDev <djperter@icloud.com>
+Description: Supercharge status bar!
+Icon: https://nexusrepo.kro.kr/depictions/com.peterdev.xeon/screenshots/Icon.png
+Filename: debs/Xeon.deb
+Depiction: https://imnotsatan.github.io/depictions/com.peterdev.xeon.html
+Icon: https://imnotsatan.github.io/icons/com.peterdev.xeon.png
+Size: 858390
+MD5sum: 6f55e3d1ee34282bc2c65209c1fb8a4a
+SHA1: 852c93b47c84e0594b201ce10e183e99433ff7fd
+SHA256: 80270e57506980dddae57ec7a70105274cb9eec91bf0c0e06c246ebbd5c8a6d8
+SHA521: 77460701df6e1af6d38a561ec9479f8dc4e600f3f4cbd9e94abc0b54696e1e71a7907888034af0ff85ab4ed0a2978469d0327a24b62b92b06e4c3498a05aaa1c
+
+Package: com.matchstic.xenhtml
+Name: Xen HTML
+Version: 1.1.5~release
+Section: System
+Priority: optional
+Architecture: iphoneos-arm
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, firmware (>= 11.0) | com.unlimapps.uaunbox
+Provides: com.groovycarrot.groovylock, com.bushe.lockhtml4, com.bushe.lockhtml3, com.bushe.lockhtml2, cydget, com.groovycarrot.sbhtml
+Author: Matt Clarke <matt@incendo.ws>
+Maintainer: Matt Clarke <matt@incendo.ws>
+Description: Unified HTML rendering; lockscreen and homescreen
+Depiction: https://xenpublic.incendo.ws/depictions/com.matchstic.xenhtml.html
+dev: Matt Clarke <matt@incendo.ws>
+SileoDepiction: https://xenpublic.incendo.ws/sileo/com.matchstic.xenhtml.json
+Icon: file:///Library/PreferenceBundles/XenHTMLPrefs.bundle/Icon@2x.png
+Filename: debs/XenHTML.deb
+Depiction: https://imnotsatan.github.io/depictions/com.matchstic.xenhtml.html
+Icon: https://imnotsatan.github.io/icons/com.matchstic.xenhtml.png
+Size: 1858998
+MD5sum: f118a81b20de6a332ec04af08008fc81
+SHA1: c8ce1bd4cbde1947682d8b502a47ba55fcc90a22
+SHA256: b23a8480b000954763ebc209e2db2d0b0d7cfce31b325028e22ae11ad4f3f38a
+SHA521: 26c2079496a1fc860f14260cdbd14dce4bdca79af23aa32f5002a937b0e52712daa4f2b507e8eaf3838d6c546157af661dfed83641d5c47d192b088e49ff85c0
+
+Package: ws.hbang.newterm2
+Name: NewTerm (iOS 10 – 13)
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Architecture: iphoneos-arm
+Description: A powerful terminal app for iOS
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Terminal Support
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Depiction: https://repo.chariz.com/package/ws.hbang.newterm2/
+Support: https://hashbang.productions/support/
+Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Version: 2.4
+Installed-Size: 6792
+Filename: debs/ws.hbang.newterm2_2.4_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/ws.hbang.newterm2.html
+Icon: https://imnotsatan.github.io/icons/ws.hbang.newterm2.png
+Size: 2183056
+MD5sum: 9de0a2d8c6b2cb9ddc5467cb8e51f54c
+SHA1: d35bebca9f64966f804b68203eb93d73e00decf6
+SHA256: 656946a2844b1fecfb4d3330f7463340d032724cb15313edfc1b3c3b898bfb97
+SHA521: eb0f8b12bc3c96711f52723b9da7215d95c0ff5596cf053ee70659ebdff27b85d47ced473a5a7db069d8c9e879ede9d4f960f398fa25e7f83743a802f02f7ca7
+
+Author: Ash Apps <support@multifl0w.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Wifi Passwords List
+Package: com.ashapps.wifipasswordslist
+Section: Utilities
+Depends: firmware(>= 7.0)
+Version: 1.0.1-1
+Architecture: iphoneos-arm
+Description: View saved wifi passwords and other info
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifipasswordslistDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifipasswordslistDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+dev: aaronash
+Installed-Size: 3512
+Icon: file:///Applications/WifiPasswordList.app/Icon-60.png
+Filename: debs/wifipasswordslist_1.0.1-1.deb
+Depiction: https://imnotsatan.github.io/depictions/com.ashapps.wifipasswordslist.html
+Icon: https://imnotsatan.github.io/icons/com.ashapps.wifipasswordslist.png
+Size: 981028
+MD5sum: 8d368ceb05e89318eb0f003a76c83d25
+SHA1: c92faaa4a0cac434d4c66b4b11ebc0fb2e243ff5
+SHA256: 173a75ece78cdf42f64b9a2c969a00252113370afa4369a1b7211c20438a3ef1
+SHA521: 190aff2b01de12e5984d42cf7283e474da593a4ee049bdf8577616b272ef28e88fdf22b6ed4f1e7969141a1ea3c6c3eeea3c9f4cbccb7f2c41e8c9e360a32753
+
+Package: wallpaperloader
+Name: WallpaperLoader
+Depends: mobilesubstrate, firmware (>= 13.0)
+Architecture: iphoneos-arm
+Description: Add more default wallpapers!
+Depiction: https://skitty.xyz/repo/depictions/wallpaperloader
+SileoDepiction: https://skitty.xyz/repo/depictions/wallpaperloader/sileo.json
+Maintainer: Skitty
+Author: Skitty
+Section: Tweaks
+Version: 1.1.1
+Installed-Size: 168
+Filename: debs/wallpaperloader_1.1.1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/wallpaperloader.html
+Icon: https://imnotsatan.github.io/icons/wallpaperloader.png
+Size: 11644
+MD5sum: 0d2ec14a603503f9689b469e6008513e
+SHA1: 621a92f632f802a77f1805fb1d96f96822399f4d
+SHA256: 91409f53a3715397d0eb7a8204943589609b910c57c363f4797845ec66dfcdec
+SHA521: 5abe961d6e85a2281aa58e7ace229b6a1941de78f67b961a0e70400ead0f98ec6cf62659d17919389373174cfb7975b32a6364a47b7519155da44b115a50e7b7
+
+Author: treAson <treasonftg@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: tweakCompatible
+Package: bz.jed.tweakcompatible
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Section: Tweaks
+Installed-Size: 292
+Version: 0.1.5
+Architecture: iphoneos-arm
+Description: Adds a way to check tweak compatibility in cydia
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tweakcompatibleDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tweakcompatibleDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: jed
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/tweakCompatible_prefs.bundle/icon@2x.png
+Filename: debs/tweakcompatible_0.1.5.deb
+Depiction: https://imnotsatan.github.io/depictions/bz.jed.tweakcompatible.html
+Icon: https://imnotsatan.github.io/icons/bz.jed.tweakcompatible.png
+Size: 54016
+MD5sum: 0a90d6021ba05aa5f67c60274c8d69b7
+SHA1: de79c31d1d26788d60e4a1e473e3153d2933f5d3
+SHA256: d10cb06e4da3281ed89906ac84656996b98f52c98c743a22f303fcdad3297b7e
+SHA521: a93237aac0b15712325b26284a8514c3a5cdf9f055fd7d6f2f761ba76f6fcb2c1c6a032220da52a3bbf7298d33ed6fa0350db9cba08121c92faa1f8f615c9cbd
+
+Author: SpicaT <spica.tweak@outlook.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: TapVideoConfig
+Package: com.spicat.tapvideoconfig
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
+Section: Tweaks
+Installed-Size: 199
+Version: 0.0.4.2
+Architecture: iphoneos-arm
+Description: Change video configuration directly in Camera app.
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tapvideoconfigDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tapvideoconfigDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: spicat
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: debs/tapvideoconfig_0.0.4.2.deb
+Depiction: https://imnotsatan.github.io/depictions/com.spicat.tapvideoconfig.html
+Icon: https://imnotsatan.github.io/icons/com.spicat.tapvideoconfig.png
+Size: 9394
+MD5sum: f57d3826c34908d1a8d300425730a8db
+SHA1: f67994701bf611d88dc2376edccd32771636ac82
+SHA256: 3ea00c4002f4c1574669b581ec91a626a76f357d1712086ef550bc0b3613be62
+SHA521: f17506115950c1f0b8dd5c8c14fb9e5e45ffa7960d94cb7c07c3107dc12e760923ca5aaa6cdd4db45fefbff6b4eee59fc6eaddbc567464e433835a08bfe1ac1d
+
+Author: PoomSmart <poomst@hotmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: SwipeForMore
+Package: org.thebigboss.swipeformore
+Depends: mobilesubstrate, firmware (>= 8.0), cydia (>= 1.1.19), preferenceloader
+Section: Tweaks
+Installed-Size: 128
+Version: 1.1.7
+Architecture: iphoneos-arm
+Description: Manage packages via swipe.
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=swipeformoreDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=swipeformoreDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: poomst
+Tag: purpose::extension, role::enduser, compatible::ios8, compatible::ios9, compatible::ios10
+Icon: file:///Library/PreferenceLoader/Preferences/SwipeForMore/SFM@2x.png
+Filename: debs/swipeformore_1.1.7.deb
+Depiction: https://imnotsatan.github.io/depictions/org.thebigboss.swipeformore.html
+Icon: https://imnotsatan.github.io/icons/org.thebigboss.swipeformore.png
+Size: 22010
+MD5sum: b36af3987d495d2b45886ec28b7786be
+SHA1: ea74e3f0da278a9a05648e5e02e53f667ceed3a0
+SHA256: ba7bdef89351c0cd1aefbb4de3a7453cb1ff510d79cd292ece7f6fbb2c9f92d3
+SHA521: a5e984837cf375a95f4f6848179a5f6c5fe747c0bf60ff37ffcf6b9c76c667b4ea592d2632f3503acb25402910b5d6ba1f425667122600330ed592a46119320b
+
+Package: org.s1ris.spinxi
+Name: SpinXI
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker, firmware (>=11.0)
+Architecture: iphoneos-arm
+Description: Circular lock screen media controls
+Depiction: 
+Maintainer: s1ris
+Author: s1ris
+Section: Tweaks
+Version: 1.2
+Installed-Size: 396
+Filename: debs/SpinXI.deb
+Depiction: https://imnotsatan.github.io/depictions/org.s1ris.spinxi.html
+Icon: https://imnotsatan.github.io/icons/org.s1ris.spinxi.png
+Size: 98950
+MD5sum: 68c70fcde9c396bbe5b922d472bc02af
+SHA1: 18451760e3dcdf959d567ba21b6879028349c7b2
+SHA256: 6c6f744ddf8548477929b8b079b07cde0380eb5210b90ddd06866e940367fcba
+SHA521: 7d8016ae3cff7ce929c03d7174bc8fda9d420582e3854cf081334d1f8dd733fa84a863c0d8e98705eb87bc3f2e60121bf1f56019a0b9a1667dad62035183d39f
+
+Package: com.spark.snowboard.ui
+Name: SnowBoard UI Extension
+Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
+Architecture: iphoneos-arm
+Description: UI Extension for SnowBoard
+Maintainer: Spark
+Author: Spark
+Section: SnowBoard Extensions
+Version: 1.0.60~Beta3
+Installed-Size: 444
+Filename: debs/Snowboardui.deb
+Depiction: https://imnotsatan.github.io/depictions/com.spark.snowboard.ui.html
+Icon: https://imnotsatan.github.io/icons/com.spark.snowboard.ui.png
+Size: 68390
+MD5sum: 1805436818f2ac8920ed05a00c0664de
+SHA1: 2c013b5530e50c0627e22d8dc49b0d488da1e745
+SHA256: ea97ea50289386900e6642c6a5ada7f80035deec62c414862f0d092bec37ade0
+SHA521: a554e18bda71a4684cba3335e3f9698a2f78ebfe69ed25e61be60dc9876d055011c25717154c6dd04ddb4d50673c698184775a9144cc8ea7156c88a1b1a10ab1
+
+Package: com.spark.snowboard.statusbar
+Name: SnowBoard StatusBar Extension
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Architecture: iphoneos-arm
+Description: StatusBar for SnowBoard
+Maintainer: Spark
+Author: Spark
+Section: SnowBoard Extensions
+Version: 1.0.10-Beta3
+Installed-Size: 456
+Filename: debs/Snowboardstaus.deb
+Depiction: https://imnotsatan.github.io/depictions/com.spark.snowboard.statusbar.html
+Icon: https://imnotsatan.github.io/icons/com.spark.snowboard.statusbar.png
+Size: 43002
+MD5sum: e22b0cbdcc701b5563948422a72c085b
+SHA1: 33d6b9c3a3caf00d96d61b21585cc2aab1b8cd6b
+SHA256: d270bfc5278f5891d0767b6da713b50735235eab9faac054a283018ede025cbf
+SHA521: 55860c6e6e3ab8ebe5b63c6a953e4728803fd277a7531b2ebc91e1490d9542c4e3459959add4509275ad0f9fda16cb756cbb7aeefeef34fb92faf9b3ce042e4c
+
+Package: com.spark.snowboard.respringextension
+Name: SnowBoard Respring Extension
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Architecture: iphoneos-arm
+Description: Respring icon extension for SnowBoard
+Maintainer: Spark
+Author: Spark
+Section: SnowBoard Extensions
+Version: 1.0.6~Beta3
+Installed-Size: 516
+Filename: debs/Snowboardrespring.deb
+Depiction: https://imnotsatan.github.io/depictions/com.spark.snowboard.respringextension.html
+Icon: https://imnotsatan.github.io/icons/com.spark.snowboard.respringextension.png
+Size: 31796
+MD5sum: 754561bbbee258371ee0366ebde8f9b8
+SHA1: c6ec3af51a5b43697778d4bda4df487731944beb
+SHA256: a1edb5e2efefb3755107dd05b834d707422db78e001d195b2a4ef3c6b7e0fa38
+SHA521: 7396af5fde9c42461fc27f44f4b76ff5737c122b57c616f7418d458750a753fe5301ed23b0b15484c45fdbca3f5a3aef5e78aa6e06981993326fe05b56b26fc3
+
+Package: com.spark.snowboard.fonts
+Name: SnowBoard Fonts Extension
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Architecture: iphoneos-arm
+Description: Fonts for SnowBoard
+Provides: com.ipr.bytafont, com.bytafont.bytafont3
+Replaces: com.ipr.bytafont, com.bytafont.bytafont3
+Conflicts: com.ipr.bytafont, com.bytafont.bytafont3
+Maintainer: Spark
+Author: Spark
+Section: SnowBoard Extensions
+Version: 1.0.12~Beta4
+Installed-Size: 400
+Filename: debs/Snowboardfont.deb
+Depiction: https://imnotsatan.github.io/depictions/com.spark.snowboard.fonts.html
+Icon: https://imnotsatan.github.io/icons/com.spark.snowboard.fonts.png
+Size: 21142
+MD5sum: a5941841ae97d4f2fe077a5710f78ca9
+SHA1: cf2d13905f298cea83bfcf03ed52c32c3ec6e012
+SHA256: 35cbe630608a1869b9698c9fa2899b2319b5a9d171b888e2bb878e2d3bf99182
+SHA521: 85a7ca8a3da6b5f1dc9f22ec0ad43764df7e0630bc0c027fb3fd6ef4cf47d5e821ef059e4e80f88946d8287d4439ce16269bd4a73759ad4d77a7ff16fd3572e7
+
+Package: com.spark.snowboard
+Name: SnowBoard
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: Snowboard theming engine
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Maintainer: Spark
+Author: Spark & Dennis D. Bednarz
+Section: Tweaks
+Version: 1.4.2~Beta4
+Installed-Size: 4884
+Filename: debs/Snowboard.deb
+Depiction: https://imnotsatan.github.io/depictions/com.spark.snowboard.html
+Icon: https://imnotsatan.github.io/icons/com.spark.snowboard.png
+Size: 1544346
+MD5sum: 0ccc95da2f2e0accbbad83e80d67a9fd
+SHA1: 2c098229be61c82c02bba61dcec46f70b941635b
+SHA256: 3503067822d9c332d2ca77d3d769eabf0da492937c47cabfe3d8964bce083916
+SHA521: e151c4e58c0f57c35f6f28d3ad66d7ee1b0b172f5b81de1a730dbdef1540ea114b96b3a1793cf4f7b2223b12148ad36a36dfd216d2c2b8a09edb432685ae59db
+
+Package: com.ikilledappl3.piecrust
+Name: PieCrust
+Version: 1.0.6-1
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, ws.hbang.common, firmware (>= 10.0)
+Conflicts: com.pxcex.installedpercent
+Replaces: com.pxcex.installedpercent
+Installed-Size: 764
+Author: iKilledAppl3 <ipodnewbee234@icloud.com>
+Maintainer: iKilledAppl3 <ipodnewbee234@icloud.com>
+Description: Add a percentage while downloading an application.
+Depiction: https://repo.packix.com/package/com.ikilledappl3.piecrust
+Filename: debs/PieCrust.deb
+Depiction: https://imnotsatan.github.io/depictions/com.ikilledappl3.piecrust.html
+Icon: https://imnotsatan.github.io/icons/com.ikilledappl3.piecrust.png
+Size: 308168
+MD5sum: 74e4f14e7499bf6e27fed61056f80b5c
+SHA1: 05da9d5702360a29525ae63de503ad0b9e01d66c
+SHA256: 6f0026f0d87fd4fcebbd465fbaba726827d6518c71eb20e161f4dff2b2c35c0c
+SHA521: ad2b99127f790de5cec0d557ce46277a88969bc8a754a8b1b3f9c25cfba25c323405395ae3fcbb46999d5a1ed33d38382458ef9cb2eb91247e19b0d74d49e17d
+
+Package: com.ryannair05.peekable
+Name: Peekable
+Version: 13.0.0
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 308
+Author: Ryan Nair
+Maintainer: Ryan Nair
+Description: 3D Touch on Non-3D-Touch Devices
+Filename: debs/Peekable.deb
+Depiction: https://imnotsatan.github.io/depictions/com.ryannair05.peekable.html
+Icon: https://imnotsatan.github.io/icons/com.ryannair05.peekable.png
+Size: 34248
+MD5sum: 024b46f75cc9e546cce0926bebd1053b
+SHA1: e4574b1b221f5286bbfdbb096f7dc4fd8ff7fb8b
+SHA256: 0adcd41c207938d19ffed27bec088981a019ebd4c96e00476ab56c83af9e96d5
+SHA521: 5aca876133b6806c41e81f8330b47528e685d7c9a83691816d59cedbfe39312d1a034e378262f395f60b68807e25be8efeba0c4e7e351a6d59f03f1f27b9d3df
+
+Package: com.maximehip.originals
+Name: Originals
+Version: 1.1.1
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Installed-Size: 496
+Author: maximehip
+Maintainer: maximehip
+Description: An awesome MobileSubstrate tweak!
+Filename: debs/Originals.deb
+Depiction: https://imnotsatan.github.io/depictions/com.maximehip.originals.html
+Icon: https://imnotsatan.github.io/icons/com.maximehip.originals.png
+Size: 88462
+MD5sum: b5768a89f845f3ef065613a6ff9bc317
+SHA1: 7d46f7e994d82f209443fafc82de2be145e99aad
+SHA256: bbc5a9c80362b4ca365f069e2d12da2972e42ff047808908448c7b0a93673459
+SHA521: 31e50eca229823ab867e73f85351c1842d759b327415e9184bb3dc5e55381e563ea0144ce99071d7f256aaaf3ad3d6aab6375b7eb1424e3141b7a71275f8adbf
+
+Name: DismissProgress
+Package: org.thebigboss.dismissprogress
+Depends: firmware (>= 6.0)
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Dismiss installation window without closing cydia.
+Version: 1.1.1
+Installed-Size: 152
+Filename: debs/org.thebigboss.dismissprogress_1.1.1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/org.thebigboss.dismissprogress.html
+Icon: https://imnotsatan.github.io/icons/org.thebigboss.dismissprogress.png
+Size: 5238
+MD5sum: e3a54711baec689ad8a831177179ea34
+SHA1: 9258aabc239dfee37cfbb9db3db33844b096340e
+SHA256: 69362db9aee63b06d5e71931b336645885777bb1b1fe79cdf0d7998325c55d79
+SHA521: 59d23d2b6e35d710c231fdf627f96b9273e921e9ec2d09d5c20f265bc31ed9da5395f99c5e5d107e400ed4790fc25903f7d51e14ef1c1135f41b4430ffb02f8d
+
+Package: com.spark.nomoresmallapps
+Name: NoMoreSmallApps
+Depends: mobilesubstrate, com.spark.libsparkapplist
+Architecture: iphoneos-arm
+Description: Make all apps full screen on notched devices
+Maintainer: Spark
+Author: Spark
+Section: Tweaks
+Version: 2.0.1
+Installed-Size: 484
+Filename: debs/nomaorsmallsps.deb
+Depiction: https://imnotsatan.github.io/depictions/com.spark.nomoresmallapps.html
+Icon: https://imnotsatan.github.io/icons/com.spark.nomoresmallapps.png
+Size: 123212
+MD5sum: b569eb74d66afb49e116a66efa5301dd
+SHA1: 873e113d8650efdc24f9ecf80e1a992ae996edaa
+SHA256: a2b3484df38d5bd5001d068598c162c65d1e1a4b118a42980c9060788b9d2044
+SHA521: 3562a5025fdc4a23179b2b5efb1312c086809d28aebf382ac160818c09666d4744bd4999528cfbff0af2d3ef68eadd4204434135289573d1512b6f7e0d549923
 
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
@@ -67,6 +607,181 @@ SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
 SHA256: 41dd591135281ca31ed5564ffa283f126bc0da1818691c8601abe6d7c18b7fff
 SHA521: e6376613d62fe9b8080957e754df02fa4d5976ed640672c710dbfa6925698ab219fd1144940650036ed4221d09f1b9b1c27633213ddc8ff4ca6f1edfcded6bf8
 
+Package: com.spark.noccbar
+Name: NoCCBar
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Removes the annoying lockscreen control center grabber bar on iPhone X iOS 11.2+
+Depiction: https://member.sparkservers.co.uk/Depictions/Depiction?productName=NoCCBar
+Maintainer: Spark
+Author: Spark
+Section: Tweaks
+Version: 2.0.0
+Installed-Size: 200
+Filename: debs/NoCCBar.deb
+Depiction: https://imnotsatan.github.io/depictions/com.spark.noccbar.html
+Icon: https://imnotsatan.github.io/icons/com.spark.noccbar.png
+Size: 5856
+MD5sum: e58f43a0d62bd3cb659a763559897c3e
+SHA1: 44ecbfbdb3ab0d410d8869861d14eac8eacd47df
+SHA256: 4b2bb9d42c51a4decc4c562ed7a8fae2bd013a268d42dd291d3cfc0270e9b23d
+SHA521: cce60185a103d6a681bc7344bee949c28eb38f8c857e9a856df691cba133b701d67c5f0906b1f70349feb8815fd01815f58627d736e202d93402ed115b562676
+
+Author: Jake Kaslewicz <jakaslewicz@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Nine
+Package: com.thecasle.nine
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.12), org.thebigboss.libcolorpicker
+Section: Tweaks
+Installed-Size: 1712
+Version: 0.2.5
+Architecture: iphoneos-arm
+Description: Reworks the Notification Center
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nineDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nineDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: thecasle
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/nineprefs.bundle/icon@2x.png
+Filename: debs/nine_0.2.5.deb
+Depiction: https://imnotsatan.github.io/depictions/com.thecasle.nine.html
+Icon: https://imnotsatan.github.io/icons/com.thecasle.nine.png
+Size: 1480748
+MD5sum: 0994eef9dba0decddc853620c0493b6c
+SHA1: 8b512059a9656b36f4383b2a90aecefb3d46c03a
+SHA256: 8aee67d13ef49482ddcef6bee1411c42e8d597b32eb72af0b3ebea0e02aa8ef0
+SHA521: be997d4c4a2c30e735cb3679c02f349c956514d58b41e6a9032a128ff267082915f8dc525630c4124cc8155e69df5ff3ab9fbccab2c0a6b4c919979db4f10e9a
+
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=newgridswitcherDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=newgridswitcherDp
+Author: relative <seth@sethstephens.me>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: NewGridSwitcher
+Package: me.sethstephens.newgridswitcher
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Section: Tweaks
+Installed-Size: 67
+Version: 1.1.0
+Architecture: iphoneos-arm
+Description: A grid switcher on iOS 11 and above
+dev: sethstephens
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Filename: debs/newgridswitcher_1.1.0.deb
+Depiction: https://imnotsatan.github.io/depictions/me.sethstephens.newgridswitcher.html
+Icon: https://imnotsatan.github.io/icons/me.sethstephens.newgridswitcher.png
+Size: 2616
+MD5sum: edfa96b25d1c8434ffce06942b122f2f
+SHA1: 0487001bfcd72ec4312dbba31b1f62e994ecf195
+SHA256: 58569837d8f4fb5dfb0f69d628a35b6ff02c515353a5ef87a6f0af242b8316b9
+SHA521: 0a28520e5ec114eb7b2ecad41716bf7e32e050ff041686c83cf97a9a3926b7bb29debd15e76dcc7085c81ea12c21ace20fa599fe0a472cff2ae9e56a806604e8
+
+Package: net.tateu.moveable9
+Name: Moveable9
+Depends: firmware (>=9.0), mobilesubstrate, preferenceloader
+Conflicts: net.tateu.moveable
+Architecture: iphoneos-arm
+Description: Arrange statusbar icons.
+Maintainer: Josh Harris (tateu) <tateu@tateu.net>
+Author: Josh Harris (tateu) <tateu@tateu.net>
+Depiction: http://www.tateu.net/repo/html/?p=moveable9
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/Moveable9.bundle/Moveable9.png
+Version: 1.0.0~beta29-32
+Installed-Size: 1063
+Filename: debs/net.tateu.moveable9_1.0.0_beta29-32_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/net.tateu.moveable9.html
+Icon: https://imnotsatan.github.io/icons/net.tateu.moveable9.png
+Size: 312808
+MD5sum: 272fbd3aecbae9ed6a447e6132e098fa
+SHA1: 6b56dd3539341a9c290fc3ea2917570c804f1fbf
+SHA256: 3fedde97963e32aa2019b9ac8038a907185f6d0005f8d806c972b46a18106163
+SHA521: 0adf700b2401e6875a42e6ec9a1e1ec7349d60bec08817b9822bce5946086f65c38f6c0755347032e2a4d77d3997766b6f8ff41813d4e639c673c022a5006816
+
+Package: com.nahtedetihw.mirage
+Name: Mirage
+Version: 1.8
+Section: Themes
+Architecture: iphoneos-arm
+Author: nahtedetihw <ethanwhited2208@gmail.com>
+Maintainer: nahtedetihw <ethanwhited2208@gmail.com>
+Description: Perfect gradients colliding with each other to create seamless Mirage effect, bundled into simplistic glyph icons!
+Filename: debs/Mirage.deb
+Depiction: https://imnotsatan.github.io/depictions/com.nahtedetihw.mirage.html
+Icon: https://imnotsatan.github.io/icons/com.nahtedetihw.mirage.png
+Size: 12732748
+MD5sum: 7ce4aa92335115a4a58801f812cac017
+SHA1: 48f11138ef84463bda62c4315a138a5c2251e082
+SHA256: b129731c6ef0bcb9a24a2e4c9e013ba2135bf793243b029c201f0513293a6d4e
+SHA521: 615623d3e4811b40a1697a400b2736b82481cc509308621eea99766cf3510dce2265bc3d0fbc763182836e3a0b8fc9973c7ad521b54ce2195cc5b7552ca30b05
+
+Package: com.nahtedetihw.mirageui
+Name: Mirage UI
+Version: 1.4
+Section: Themes
+Architecture: iphoneos-arm
+Author: nahtedetihw <ethanwhited2208@gmail.com>
+Maintainer: nahtedetihw <ethanwhited2208@gmail.com>
+Description: UI extension for Mirage theme!
+Filename: debs/MirageUI.deb
+Depiction: https://imnotsatan.github.io/depictions/com.nahtedetihw.mirageui.html
+Icon: https://imnotsatan.github.io/icons/com.nahtedetihw.mirageui.png
+Size: 1719340
+MD5sum: 920e8a3e9e6bea9c3d5347dd7a522fad
+SHA1: 689451f0be5f122643803c5abe6e281c4220fe98
+SHA256: 44631bb149115542a59dae60b1591cb100bc35fc72058a647139b35168f92155
+SHA521: 665769df63b5177e7a7bda99543218160c36e24886f00e43e0b6df2e3b68f1469b2be48c130d27a160060638fe45cc485e94063259c822fab1e9b7083fae4cee
+
+Package: com.nahtedetihw.miragestatusbar
+Name: Mirage UI
+Version: 1.2
+Section: Themes
+Architecture: iphoneos-arm
+Author: nahtedetihw <ethanwhited2208@gmail.com>
+Maintainer: nahtedetihw <ethanwhited2208@gmail.com>
+Description: Statusbar extension for Mirage theme!
+Filename: debs/MirageStatusbar.deb
+Depiction: https://imnotsatan.github.io/depictions/com.nahtedetihw.miragestatusbar.html
+Icon: https://imnotsatan.github.io/icons/com.nahtedetihw.miragestatusbar.png
+Size: 48022
+MD5sum: d681704d988abc85ce3e76dca4937efc
+SHA1: d104f150e340b3d152b4f618faa7893b7e062fe5
+SHA256: 9058cbfc0607b99df9988cd1422598fda76389a5396c2880bdeef590ef9f5efb
+SHA521: d5ebe3f1c76b063f3d15180625db1a9e796a2f4243959f79487f6f97cae02c6f3ccb2edba28a24cddefb335165cd634a527ee9e2927397b70ec72cf0bc179bf0
+
+Package: com.alazybrick.mildos
+Name: MildOS
+Version: 1.0.1
+Section: Themes
+Architecture: iphoneos-arm
+Author: alazybrick <l.giesselmann@icloud.com>
+Maintainer: alazybrick <l.giesselmann@icloud.com>
+Description: iOS Theme
+Filename: debs/MildOS.deb
+Depiction: https://imnotsatan.github.io/depictions/com.alazybrick.mildos.html
+Icon: https://imnotsatan.github.io/icons/com.alazybrick.mildos.png
+Size: 3791202
+MD5sum: 712f0d7119e37e50ba96a0ddbdc59ebd
+SHA1: c109c580f7c8d578e59eb0de2b6507666367fd8c
+SHA256: b09381726a1766a9e4570662d0e0825698e6ef4445431ae370f77bd78fe6d0ba
+SHA521: 2e59e70d080e567cd21bc413ecb86f73bc34e802090ab12d253384b2dc11e002a840c2569288fbdecb03166921d966a5861b5b05a09b039604c1d69a8825f4b1
+
+Package: com.yebece.macios
+Name: maciOS
+Version: 1.0
+Section: Themes
+Architecture: iphoneos-arm
+Author: YeBeCe <yusufberkcekic11@gmail.com>
+Maintainer: <yusufberkcekic11@gmail.com>
+Description: Old macOS like icons!
+Filename: debs/maciOS.deb
+Depiction: https://imnotsatan.github.io/depictions/com.yebece.macios.html
+Icon: https://imnotsatan.github.io/icons/com.yebece.macios.png
+Size: 26678026
+MD5sum: 6e5eafc5d38c48748007fbb3d6822d10
+SHA1: 750a1e8d5cae9d8807ae5e527cac45bf23ffa58d
+SHA256: 118fc97872f4fca4b77f70acae80fe2a080da3b5f2006da65d37d369cd7b7e7a
+SHA521: 7c675f3b2b5ef95a1688296a8d4fd32a941ab34b3ed3e6bd86095cf7faa270c4965171a0c9ba9227741b2c5d33fd5c848c3a201943527fd0c90d9fff007b134f
+
 Package: com.exile90.icleanerpro
 Name: iCleaner Pro
 Description: The first real iOS system cleaner & optimizer
@@ -89,6 +804,295 @@ MD5sum: 066dd8cd88f869605942ab7f6019c56f
 SHA1: 6dcfe8105eaf708bb983b2db73c90e91b4f48b4f
 SHA256: 91d9e941d47a2b6d89e1db7edba28aa7e0b1ecfa7127d1ebfa6c03fff0136314
 SHA521: ff59144e5e2fd9622a5b40f63c944e18ea055985824e767d137620cfeaa469e039a5845cd62a48ffcbefd7c5d6c25914a388a98e8af7b4eb1317bfc6f44d352f
+
+Package: com.muirey03.hive
+Name: Hive
+Depends: mobilesubstrate, preferenceloader, com.creaturesurvive.libcscolorpicker, ws.hbang.common (>= 1.11)
+Architecture: iphoneos-arm
+Description: Redesigned passcode screen
+Maintainer: Muirey03
+Author: Muirey03
+Section: Tweaks
+Version: 1.0.4
+Installed-Size: 298
+Filename: debs/Hive.deb
+Depiction: https://imnotsatan.github.io/depictions/com.muirey03.hive.html
+Icon: https://imnotsatan.github.io/icons/com.muirey03.hive.png
+Size: 32480
+MD5sum: 50659657ab4074b2587e490abb41ec74
+SHA1: a8e3ca98c7c8d04bea2510dee01c8a6dc5395bb0
+SHA256: 295581eda2edbb19b921e28b1ecdb331c095e15efbf94d3856cd36d2f6fa39aa
+SHA521: 1b759c528bccadcdd76b29b7f89d8e91e7d0663432682eb9e97b1b099a305abe685a35313e14a1483e90c3eab7fa7b1f8d7c95c5cbdee0761d9166b980e10cc1
+
+Package: com.spooter.glyphymavro
+Name: Glyphy × Mavro
+Version: 1.4
+Section: Themes
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), com.opa334.ccsupport, com.spark.snowboard, com.spark.snowboard.ui, com.spark.snowboard.statusbar, com.spark.snowboard.settingsicons, com.spark.snowboard.respringextension, com.spark.snowboard.dock, com.spark.snowboard.masks
+Conflicts: com.twickd.spooter.glyphy, com.twickd.spooter.mavro
+Installed-Size: 190912
+Author: spooter × h4ckua11
+Maintainer: spooter
+Description: The most advanced theme to date.
+Filename: debs/Glyphy×Mavro.deb
+Depiction: https://imnotsatan.github.io/depictions/com.spooter.glyphymavro.html
+Icon: https://imnotsatan.github.io/icons/com.spooter.glyphymavro.png
+Size: 47800492
+MD5sum: 96f9f095ebd0aa2544d88ee823953246
+SHA1: 4bc65e265c4098e6b8548c2be261113b30e7c0e5
+SHA256: 2fd6a4432ed4db80f650870fcdfdbef380ce7950fa7f5d1192321ec44a274fec
+SHA521: 20b505d3d6d68541a630d88d5a3921cd92a144d78286fe34ab63ca156c6f7ce3f962185d8ce0671e850adab55a0cb542072c0d02fda0fc162855a59fb7dc94a6
+
+Package: com.lacertosusrepo.freemarket
+Name: Free Market
+Version: 1.0
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Installed-Size: 136
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Description: If you're seeing this, I forgot to add a description...
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.beta/
+SileoDepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.beta/
+Filename: debs/FreeMarket.deb
+Depiction: https://imnotsatan.github.io/depictions/com.lacertosusrepo.freemarket.html
+Icon: https://imnotsatan.github.io/icons/com.lacertosusrepo.freemarket.png
+Size: 2764
+MD5sum: 05838aa07c078c9325707b7179d7ffa1
+SHA1: ff92150363988ff1783f023020ab83bc3b01ce04
+SHA256: 2678d8c79e21f5e6700497dab6f4300a225d1a9d0327135967493ce37ab53feb
+SHA521: 7497023ebae0a72fbfa24dc8165d142b4913eaca0132e25dbdbffc1cb0d5c00a332be1d21ad8adf4bab4afa80c2ab5f3cb61910830db87b18db262a16ca58965
+
+Name: Flame
+Package: com.aditkamath.flame
+Priority: optional
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader, cydia (>= 1.1.19), org.thebigboss.libcolorpicker
+Conflicts: com.aditkamath.cydiatimeout, com.aditkamath.exterminator, net.kister.apttimeout
+Version: 1.3
+Architecture: iphoneos-arm
+Description: Make Cydia Yours
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flameDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flameDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Adit Kamath <adit@aditkamath.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Installed-Size: 367
+dev: aditkamath
+Icon: file:///Library/PreferenceBundles/Flame.bundle/Flame@2x.png
+Filename: debs/flame_1.3.deb
+Depiction: https://imnotsatan.github.io/depictions/com.aditkamath.flame.html
+Icon: https://imnotsatan.github.io/icons/com.aditkamath.flame.png
+Size: 67172
+MD5sum: 1f87ce2bf022e14ce3dc8f2a76668bac
+SHA1: 2cc09a9441aa62dd3513bafca82229c7bc663f67
+SHA256: 4d28aecc99b895edf17d2cf54c92cd805231d14fc0f2f456821f58059cebbfde
+SHA521: f285adb5a98705efa1b9910efa77fa4c85c5b5a8cf8c26fc7f5acbc63c8ee939259865f0e4eab0f8ac0efc3b553888e5dc2104d9c0458fbfbe558aeca9059e8a
+
+Package: com.comex.fastcopy
+Name: Fast Copy
+Version: 1.0
+Architecture: iphoneos-arm
+Description: removes copy/paste menu choice delay
+Depends: mobilesubstrate
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fastcopyData
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fastcopyData
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: comex <comexk@gmail.com>
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 16
+dev:comex
+Filename: debs/fastcopy_1.0.deb
+Depiction: https://imnotsatan.github.io/depictions/com.comex.fastcopy.html
+Icon: https://imnotsatan.github.io/icons/com.comex.fastcopy.png
+Size: 1832
+MD5sum: 5d57c8cecd04297618d8871f4552bb51
+SHA1: 396e6960f5ab39a660b95a09cc67bef66ddb5495
+SHA256: aec33983d17e24961727531180e5411b96da6a0a239e74081e06cdf736b7fbe0
+SHA521: e20d9f012ed917bf7638475a2b8453076db94460e28cda890ddbd6ca4efa01ef131c4cb36320c893c2ee1ea6f0340c61f0571a9cedcbf707e92cf6bcdc47c50d
+
+Package: com.imkpatil.ezswipe
+Name: EZSwipe
+Version: 1.1.1
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Installed-Size: 340
+Author: P2KDev <p2kdev@gmail.com>
+Maintainer: P2KDev <p2kdev@gmail.com>
+Description: Give your hand a rest by using gestures instead!
+Icon: file:///Library/Application Support/EZSwipe/icon.png
+Filename: debs/EZSwipe.deb
+Depiction: https://imnotsatan.github.io/depictions/com.imkpatil.ezswipe.html
+Icon: https://imnotsatan.github.io/icons/com.imkpatil.ezswipe.png
+Size: 21758
+MD5sum: c585b65c3b222dddf3fb12c49e4737ce
+SHA1: 48689f7a34f46083962f7cdc7c5bcc7a124b8386
+SHA256: c00b8e04d4a26666e3f81d29d0736785ee93c2e0c0829b3d3cebc376f86db48d
+SHA521: c95e678e8469982275d65b28870152167205a0a41338c6fd6f8e147d2be99e7b2977ec3cbc6668bab334266e7f6515b3bbdfce378bb6a0baecde34fea43481de
+
+Package: com.muirey03.duo
+Name: Duo
+Version: 1.0.7
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 672
+Author: Muirey03
+Maintainer: Muirey03
+Description: Add a second page to the iOS 11 Control Center!
+Filename: debs/Duo.deb
+Depiction: https://imnotsatan.github.io/depictions/com.muirey03.duo.html
+Icon: https://imnotsatan.github.io/icons/com.muirey03.duo.png
+Size: 289758
+MD5sum: 1f93baf927ba0f8d66446fb5f5a21535
+SHA1: e4a456bb5736c9e1b4eae4b209cfac63d18905c1
+SHA256: 2da97d47734d7b84b3539673988b636291e1b0fa2b82b2976019068fd136d534
+SHA521: a56ca451f4ece6508fd0c933ab096e7a951097e49c2118b7f151f787115474784236fa6f17f580227ad5f3f6978288d84a84d4658e8f88f1cbde953755eabc08
+
+Package: jp.soh.downlocker2
+Name: DownLocker2
+Version: 2.5
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Installed-Size: 396
+Author: Soh Satoh
+Maintainer: Soh Satoh
+Description: Facedown to lock devices
+Filename: debs/DownLocker2.deb
+Depiction: https://imnotsatan.github.io/depictions/jp.soh.downlocker2.html
+Icon: https://imnotsatan.github.io/icons/jp.soh.downlocker2.png
+Size: 95038
+MD5sum: efffcba00ddd0a0de244f66a065784ed
+SHA1: 1abdb1bee393a526490c9285e0050363c23ec70f
+SHA256: fe29e8110560250c830632b069a0010d5b0005577cec59489bd20b9e914d2b99
+SHA521: 7696eb0707b1c20d88582cf3fb901ed7d30c751f14515925af4f8b108837ff38ea8ce1b02cba86f8b2e08a2644836447b7b281dfbeb3ceba24404316166093a3
+
+Package: jp.r-plus.doublecut
+Depends: mobilesubstrate, firmware (>= 7.0), preferenceloader
+Name: DoubleCut
+Version: 0.5
+Architecture: iphoneos-arm
+Description: Double-/Triple-Tap/LongPress key to insert text
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: r_plus <anasthasia.r+doublecut@gmail.com>
+Section: Tweaks
+dev: rplus
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=doublecutDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=doublecutDp
+Installed-Size: 403
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/DoubleCutSettings.bundle/DoubleCut@2x.png
+Filename: debs/doublecut_0.5.deb
+Depiction: https://imnotsatan.github.io/depictions/jp.r-plus.doublecut.html
+Icon: https://imnotsatan.github.io/icons/jp.r-plus.doublecut.png
+Size: 23440
+MD5sum: 3cfddb8e047d816286d52ccf73425dcf
+SHA1: 2e08f49c43dd7b64a64b2a50bc62925dc0c2129d
+SHA256: cf76ebc8c7052a40692458a4aae28d54a3cc30bf22c9641214267a117572f90a
+SHA521: 1383a2fffe6861e9735aa902208ab815aa764bcb26a74f8a88c6d29e41d61c68a2ff2a53e10afd47605745feb76a918bd389cb36ac4dc212379e1f278c36408b
+
+Package: dev.aryanjnambiar.wonderbar
+Name: Wonderbar
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 12), ws.hbang.alderis, preferenceloader
+Architecture: iphoneos-arm
+Description: Complete status bar customization at your fingertips!
+Maintainer: Aryan Nambiar <awesomeajn@gmail.com>
+Author: Aryan Nambiar <awesomeajn@gmail.com>
+Section: Tweaks
+Tag: compatible_min::ios12.0
+Icon: https://chariz.com/cdn/icon/wonderbar/icon@3x.png
+Depiction: https://repo.chariz.com/package/dev.aryanjnambiar.wonderbar/
+Version: 1.1
+Installed-Size: 368
+Filename: debs/dev.aryanjnambiar.wonderbar_1.1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/dev.aryanjnambiar.wonderbar.html
+Icon: https://imnotsatan.github.io/icons/dev.aryanjnambiar.wonderbar.png
+Size: 24958
+MD5sum: fd5ace56a34c3c8659ff2fbebcff8fa8
+SHA1: 2713c9e3e81a18c6b8729b5d18402161783409f0
+SHA256: 0bf5cdab724751624279885211baf629f3b0fb27ff906ba24a1eb0f767bcfcea
+SHA521: 631b1f683fffa8c38d997726b75e8f89e06d5d4cdfd2751e99730ab7d53211ae32404f5119e05666cb24ccc094463b5126b384ea1523eb68c29cdc62518674bf
+
+Name: DeleteForever
+Package: com.creatix.deleteforever
+Priority: optional
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Version: 0.0.1-57
+Architecture: iphoneos-arm
+Description: "Delete Permanently" option for Photos.
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=deleteforeverDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=deleteforeverDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Creatix <ioscreatix@gmail.com>
+dev: creatix
+Section: Tweaks
+Tag: purpose::extension, compatible::ios8, compatible::ios9
+Installed-Size: 682
+Icon: file:///Library/PreferenceBundles/DeleteForever.bundle/DeleteForever@2x.png
+Filename: debs/deleteforever_0.0.1-57.deb
+Depiction: https://imnotsatan.github.io/depictions/com.creatix.deleteforever.html
+Icon: https://imnotsatan.github.io/icons/com.creatix.deleteforever.png
+Size: 250408
+MD5sum: a67aeb9a9f01c5a530b6c5bd6ab36d41
+SHA1: db025c00a59a441f5b204b02326450c04593cf5e
+SHA256: e482027da5b0f2601685acebce185488db0289537eb5755a672ba7c7714be141
+SHA521: 9fbf602c23d748d8cff9d40ee8b640fc3dffc761c856d2c48d02d1addd40c27c440c0054a4791315188a93ea0dbe09d0f53ea2ae59ccb5909380b2ecee7b38ae
+
+Package: jp.r-plus.deletecut
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Replaces: jp.r-plus.shiftdelword
+Conflicts: jp.r-plus.shiftdelword
+Name: DeleteCut
+Version: 0.5
+Architecture: iphoneos-arm
+Description: Delete word mode while holding shift.
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: r_plus <anasthasia.r+doublecut@gmail.com>
+Section: Tweaks
+dev: rplus
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=deletecutDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=deletecutDp
+Installed-Size: 529
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Icon: file:///Library/PreferenceBundles/DeleteCutSettings.bundle/DeleteCut@2x.png
+Filename: debs/deletecut_0.5.deb
+Depiction: https://imnotsatan.github.io/depictions/jp.r-plus.deletecut.html
+Icon: https://imnotsatan.github.io/icons/jp.r-plus.deletecut.png
+Size: 71228
+MD5sum: f387bd5dd0ab630baddfa414d9a609a8
+SHA1: 2844cd568249ee3596e21bdfb3b29a739a29c83f
+SHA256: 02775b5f22e90a0cd2ce2dd5ff8929e063eea2f2d1c9d12271ff935fb7211e40
+SHA521: ecdb9cdd9e9dbbee3b403adbd0de2870cd0ac5f96ee6c0bfb4aaf9833960785ee08c16f878bb2f62e2f5af6a5c5e4700bd8a3f43cb941a122a501f112b93f9eb
+
+Package: com.unlimapps.uaupdatetools
+Name: App Admin
+Version: 1.0r-102
+Description: Downgrade iOS apps to any previous version! No AppSync needed!!!
+Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
+Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
+Section: System
+Depends: firmware (>= 7.0), mobilesubstrate
+Conflicts: it.marcocristalli.asupdatehider
+Priority: optional
+Architecture: iphoneos-arm
+Author: UnlimApps Inc.
+Maintainer: UnlimApps Inc.
+Filename: debs/com.unlimapps.uaupdatetools_1.0r-102_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.unlimapps.uaupdatetools.html
+Icon: https://imnotsatan.github.io/icons/com.unlimapps.uaupdatetools.png
+Size: 863628
+MD5sum: 6d7f076eb541e5bbec3e3629f152d16d
+SHA1: 058a98b3da7197c1c767c71a6db420b392a460d2
+SHA256: 8a251edeb458547686060caa4545800061b5d6d465b34982c1e76580474180c1
+SHA521: 0966a0975d0cce26ce83f7ef78c3e2b62b92d24b59436d1915faeea78ed443d019e146d7d6d8b7477bbd06148a6c028d4e717132c06e2668bfba40260a10c8c2
 
 Package: com.tigisoftware.filza64bit
 Name: Filza File Manager 64-bit
@@ -130,23 +1134,93 @@ SHA1: 8e863dfc94b854a10dea37e79dcbc0274c6740d9
 SHA256: 3dd9f9640d62aadd1e4e2c8e1c307465ba5259b807d6f54ceb96dcf64d222f3f
 SHA521: df0147015002599586223fc6c26d1c1f183de6575a6b262b855a2e9126af45ea72d7cf19194cfd08022881f4415359fc9feef36083ae21434816b10926a949ea
 
-Package: com.tigisoftware.appdatamanager
-Name: Apps Manager
+Package: com.thecomputerwhisperer.foldercloserxi
+Name: FolderCloserXI
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
-Maintainer: TIGI Software
-Author: TIGI Software
-Section: Utilities
-Version: 1.6.0-10
-Installed-Size: 9104
-Filename: debs/com.tigisoftware.appdatamanager_1.6.0-10_iphoneos-arm.deb
-Depiction: https://imnotsatan.github.io/depictions/com.tigisoftware.appdatamanager.html
-Icon: https://imnotsatan.github.io/icons/com.tigisoftware.appdatamanager.png
-Size: 3667864
-MD5sum: 4178c1840ba7e92886ad88a11d6d120d
-SHA1: 1aeae6e8989099d95f7f7ea2985bad376f573b2b
-SHA256: 6d25fb278a0780d263e871eac9686efa20716e114fc5fe98345ce894abed1dfb
-SHA521: fbca3d6233cd9a3e435fed1bd5a4981a66e12c602b81ae07082b854dda884863fcb8af98de59398963ad2051dfbf8318eeb0dcd46da519794a2731138bde16e8
+Description: Automatically close folders after launching apps.
+Depiction: https://legitcomputerwhisperer.github.io/depic/FolderCloserXI/index.html
+Maintainer: TheComputerWhisperer <actualcomputerwhisperer@gmail.com>
+Author: TheComputerWhisperer <actualcomputerwhisperer@gmail.com>
+Section: Tweaks
+dev: TheComputerWhisperer
+Tag: purpose::extension, compatible::ios11, compatible::ios10, compatible::ios9, compatible::ios8
+Icon: file:///Library/PreferenceLoader/Preferences/FolderCloserXI@2x.png
+Version: 1.0.2-1
+Installed-Size: 188
+Filename: debs/com.thecomputerwhisperer.foldercloserxi_1.0.2-1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.thecomputerwhisperer.foldercloserxi.html
+Icon: https://imnotsatan.github.io/icons/com.thecomputerwhisperer.foldercloserxi.png
+Size: 20804
+MD5sum: 1cb89204a508905d2920f7b04f94e8c3
+SHA1: fc45a37ac4c2820965e81572eefd8438baa38dfa
+SHA256: 4fa4ffe9cd11c430128bccf8675da9c812eb19758a54f7eea681603b183383f6
+SHA521: ea7766fb03a9169816ee90d32efe75a4cb3bea232636f73454489363b79584cb314ebbdbd62f4a123f242a2075bbcf83e6372e4b694bf3b9cfa059f1618b9ed7
+
+Package: com.thecomputerwhisperer.eztweaklist
+Name: EZTweakList
+Depends: firmware (>=9.0), mobilesubstrate, dpkg, cydia
+Architecture: iphoneos-arm
+Description: Easily export and share your tweak list.
+Depiction: https://legitcomputerwhisperer.github.io/depic/EZTweakList/index.html
+Maintainer: TheComputerWhisperer <actualcomputerwhisperer@gmail.com>
+Author: TheComputerWhisperer <actualcomputerwhisperer@gmail.com>
+Section: Addons
+Dev: TheComputerWhisperer
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11
+Version: 1.0.1-1
+Installed-Size: 140
+Filename: debs/com.thecomputerwhisperer.eztweaklist_1.0.1-1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.thecomputerwhisperer.eztweaklist.html
+Icon: https://imnotsatan.github.io/icons/com.thecomputerwhisperer.eztweaklist.png
+Size: 17286
+MD5sum: 2e8685907f37faf8d9bc86bed3614be3
+SHA1: 5e0643a229694b90fa03dc2f72969c4b58265ab9
+SHA256: 93e09a941d28e659cde1cfda41275e530bc8ccd91d2ff52a1cd6367dbc13e5b0
+SHA521: 8689454ac59d7c0eed4cf4e4d2d06b731b7f5ce82140e9b41b92041c9df37f1f03d3dc373f5dcb17426eaf2b0615c3b0ee84406b5bbca7a8c97229d6300fa136
+
+Package: com.spicat.recordpause
+Name: RecordPause (iOS 9+)
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.2)
+Conflicts: org.thebigboss.recordpause
+Architecture: iphoneos-arm
+Description: Pause/resume video recording.
+Maintainer: SpicaT
+Author: SpicaT
+Section: Tweaks
+Icon: file:///Library/PreferenceLoader/Preferences/RecordPause/RP@2x.png
+Version: 1.3.3
+Installed-Size: 200
+Filename: debs/com.spicat.recordpause_1.3.3_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.spicat.recordpause.html
+Icon: https://imnotsatan.github.io/icons/com.spicat.recordpause.png
+Size: 9414
+MD5sum: 03fa0cff6b987ebb9d741343964ac0b4
+SHA1: c774edb145d9c0163159d3fc32ff3a377eedc187
+SHA256: 53e7f95b0d6a55bfb8effc73273e93d38b2ebfbf5af184e4172a16f99f45dadf
+SHA521: 133456669727d6b43ae12a0bf60cfd2fd884ece599c3db64b85f6bdd49a1d4e3423a653675df471fe6a24018d580d0fb86f60594dfe598d2fb237a47922ecc5c
+
+Package: com.smokin1337.togglow
+Name: Togglow
+Depiction: https://www.idevicehacked.com/depictions/?p=com.smokin1337.togglow
+SileoDepiction: https://www.idevicehacked.com/depictions/com.smokin1337.togglow/Togglow
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Description: Make the control center your own !
+Maintainer: smokin1337 <smokin1337@gmail.com>
+Author: smokin1337 <smokin1337@gmail.com>
+Section: Tweaks
+Icon: https://www.idevicehacked.com/depictions/com.smokin1337.togglow/icon.png
+Version: 1.0.8
+Installed-Size: 1172
+Filename: debs/com.smokin1337.togglow_1.0.8_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.smokin1337.togglow.html
+Icon: https://imnotsatan.github.io/icons/com.smokin1337.togglow.png
+Size: 340246
+MD5sum: c90533cae91aaae3ee1b88b60dced107
+SHA1: e75de6ecb2621703428c37833fd7f6fa4c9c4537
+SHA256: d3daedd8a2312ef046192ae01993b3a3b2946e6815e1d2f4307d6fc9e78fa1d0
+SHA521: 46747a470cdb904fde887ac64b0053e2588243f491e80214c8ba0bcc53b60161339b20d09f6d0412093ef5bcb8b18f5dce415c0d80389ca958f137d4a1c68366
 
 Package: com.smokin1337.blurification
 Name: Blurification
@@ -170,6 +1244,28 @@ SHA1: d7fe3d3f0d29ccea6484bb329e95e899934ff861
 SHA256: 1a6149f038d694c45ec3f86ea7f418047a09c7ddc729555a3ac56c714d1ddcf2
 SHA521: 8d018306273d9b21bce52fe0d679d2badcb14ff6ce6df05d0e9a1c1247aa543cdfe03e56f88d1a87e1944e25a53a925f365ca41e062f7b71ba51ba53560d93cf
 
+Package: com.skitty.dune
+Name: Dune
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: A free, open-source iOS dark mode.
+Depiction: https://skitty.xyz/repo/depictions/?p=com.skitty.dune
+SileoDepiction: https://skitty.xyz/repo/depictions/?s=com.skitty.dune
+Icon: https://skitty.xyz/repo/icons/com.skitty.dune.png
+Maintainer: Skitty
+Author: Skitty
+Section: Tweaks
+Version: 1.2.1
+Installed-Size: 1028
+Filename: debs/com.skitty.dune_1.2.1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.skitty.dune.html
+Icon: https://imnotsatan.github.io/icons/com.skitty.dune.png
+Size: 548296
+MD5sum: f57ddcffba67ee0e24856283c3a20a47
+SHA1: 7be9d3f15096b344a49528918192dd9d13910535
+SHA256: 55b99fe33a4f2d98fbc06f2834a2e8f758a99c013b8040e377f587b083dc5830
+SHA521: 97c63a3514570e7f320b0cff9a8761bdf6b2b608a887e906626c9a03a08e0ea6910cc055dbd3405f239b471f19a9f1b504a00988fb1a6e04eabd6d1bfe800bf5
+
 Package: com.shiftcmdk.pencilchargingindicator
 Name: PencilChargingIndicator
 Depends: mobilesubstrate
@@ -190,6 +1286,26 @@ SHA1: 4828bcef31c915881b03023e6df34da56dd0c050
 SHA256: 023ff8fd7d4a2fa855e38905c844dea1fde60b55f1b2dc79c709bb2c0835b145
 SHA521: cb86bbe64e82c45b3f296bc98eb01544a05a48ae6f41bd5a337912c881e21f09090e2c836fa5f71aa6d926aea31e25a0801d00a5b018e04e36dbee80525a1367
 
+Package: com.shiftcmdk.awesomepagedots
+Name: AwesomePageDots
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Animated page control for the home screen.
+Maintainer: shiftcmdk
+Author: shiftcmdk
+Section: Tweaks
+Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.awesomepagedots
+Version: 1.1.3
+Installed-Size: 256
+Filename: debs/com.shiftcmdk.awesomepagedots_1.1.3_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.shiftcmdk.awesomepagedots.html
+Icon: https://imnotsatan.github.io/icons/com.shiftcmdk.awesomepagedots.png
+Size: 20100
+MD5sum: b2c010aae07bbe7ccac03898dd0a86a2
+SHA1: 83949b504af164ba99a21b87279d2cc5a94e8683
+SHA256: 2a34a29de923c3163e00b22299f3ae9360a06222252cad18c98a4116991940f4
+SHA521: 02dce925fe54f66eabaf12e4b4b23f7a10ab8a620febd204ad742f0db53a9541d88b03d2dfb605b8738ab6ff95836a256bc8a97fd68ff6822110d2ce68eee252
+
 Package: com.samgisaninja.successionrestore
 Name: Succession
 Version: 1.4.15
@@ -208,6 +1324,132 @@ MD5sum: 49897046f0f21b2a5b69a8f035aa9201
 SHA1: bc8377c3723535aa71af974d3e7b4cede404e879
 SHA256: b62349fb95e1773ecde52407034f33b3bb223c2c2aef2e97d148556f944cc36a
 SHA521: 09d933d159428fef9bd6c465d2c0262857d3ca97e09560c4c46ad60473c6e52a4d6bb24b36501695de822e5a09fec0fd58639542a9cb0553fd6e36b8f92e71f3
+
+Package: com.rpgfarm.notifica
+Name: Notifica (BawAppie)
+Depends: mobilesubstrate, me.nepeta.libcolorpicker | org.thebigboss.libcolorpicker (>= 1.6.3), ws.hbang.common (>= 1.11), firmware (>= 11.0)
+Conflicts: io.ominousness.modernxi, me.nepeta.libnepeta
+Replace: me.nepeta.notifica
+Architecture: iphoneos-arm
+Description: Notification customizer
+Maintainer: Nepeta & BawAppie <pp121324@gmail.com>
+Author: Nepeta & BawAppie <pp121324@gmail.com>
+Section: Tweaks
+Version: 0.4.1
+Installed-Size: 1260
+Filename: debs/com.rpgfarm.notifica.deb
+Depiction: https://imnotsatan.github.io/depictions/com.rpgfarm.notifica.html
+Icon: https://imnotsatan.github.io/icons/com.rpgfarm.notifica.png
+Size: 430724
+MD5sum: 4ab660e23cb152e19c1a01fe5e1d1cef
+SHA1: 738ee989c26e4e1f41773e932e4dc202bdf062d6
+SHA256: 73ab7fe1b75b64c3569f640560c90753f0f8d0574dad8abed2c271deeab8cc9c
+SHA521: 2bcab58d20926978a83a815ea09685f04b66bf4d88cda646e708e9ebe9b4e6b5ff6c922e23f5497b9fb1605d4cb9963426defc0471c16d37523ab891fb3e22d4
+
+Package: com.rob311.volskip11
+Name: VolSkip11
+Depends: mobilesubstrate, firmware (>= 11.0)
+Architecture: iphoneos-arm
+Description: Skip tracks by holding the Volume buttons. Play/Pause by holding both Volume Buttons. Non-X devices have extra functions. Home + Volume buttons override Volskip11. Lock + Volume Up = Max Volume, Lock + Volume Down = Min Volume (Ringer)/ Mute (Media). Works with All 11.x.x - 14.x.x
+Author: rob311 <rob@rob311.com>
+Maintainer: rob311 <rob@rob311.com>
+Section: Tweaks
+Version: 0.0.5-3
+Installed-Size: 168
+Filename: debs/com.rob311.volskip11_0.0.5-3_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.rob311.volskip11.html
+Icon: https://imnotsatan.github.io/icons/com.rob311.volskip11.png
+Size: 13574
+MD5sum: f4c6817fc7f858c46ef65008ffcd89c0
+SHA1: fa61db4c1c966b26c1ab80c0403eeddd1720b18b
+SHA256: d3a36f25691d1e7640a1ae513ab31fe8db2aba7a4ac4f87a1bcc5211698ce639
+SHA521: 3174f9a92dd9bf3106f7f5fd27e8b761183fad84e2cbc0f4e550263234b61a6091b2115458b4d4d3d52ec639178d8593d3f0dd7222592fe003a711825a50b6f4
+
+Package: com.ps.cconandoff
+Name: CC On & Off
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc
+Architecture: iphoneos-arm
+Description: Properly toggle Wi-Fi and Bluetooth from CC (iOS 11+)
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Version: 0.0.1.1
+Installed-Size: 136
+Filename: debs/com.ps.cconandoff_0.0.1.1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.ps.cconandoff.html
+Icon: https://imnotsatan.github.io/icons/com.ps.cconandoff.png
+Size: 3866
+MD5sum: 9c8c207b66b8afedf767d3a62e4bd653
+SHA1: 97e47935fcae3f7e43b17dd71ac898bd48dec49d
+SHA256: 62e032067d1d91d92b8bd79f71c44e3ad7a9f31320bbadabd598c1a15f2757b0
+SHA521: 2aaac69737d77691644218020784f7bada34d432a134781c9fb75e1f6fd8f615f60156775cb9a1eb6acde84c0ca498151ccc3c0a8da80db7bea4d59cb3124cbc
+
+Package: com.matchstic.reprovision
+Name: ReProvision
+Version: 0.5.2~EOL
+Description: Re-sign applications on your device
+Section: System
+Depends: firmware (>= 9.0)
+Priority: optional
+Replaces: com.matchstic.Extender-Installer
+Provides: com.matchstic.Extender-Installer
+Architecture: iphoneos-arm
+Author: Matt Clarke <matt@incendo.ws>
+dev: Matt Clarke <matt@incendo.ws>
+Maintainer: Matt Clarke <matt@incendo.ws>
+Homepage: https://github.com/Matchstic/Extender-Installer
+Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+Filename: debs/com.matchstic.reprovision_0.5.2_EOL_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.matchstic.reprovision.html
+Icon: https://imnotsatan.github.io/icons/com.matchstic.reprovision.png
+Size: 14406348
+MD5sum: 4064144eed72b264038cb91d9e477f1a
+SHA1: 1287ffa0f2919789fc86a96267e8cb3410715ff8
+SHA256: 11efa2b9c737860df3ebe08eeab429bfa664612c4b22b5e8aa237f20785b8e5d
+SHA521: 55e5b6ea8072150c04fa6a6b2473117f512d246edecbbbcdb23c91d995328e71566405b2119296ab1107e41f7ba45fba8878b6ea30d50310868e011655065d77
+
+Package: com.laughingquoll.daisy
+Name: Daisy
+Depends: mobilesubstrate, com.laughingquoll.prefixui
+Architecture: iphoneos-arm
+Description: A better audio interface experience.
+Maintainer: LaughingQuoll <me@laughingquoll.net>
+Author: LaughingQuoll <me@laughingquoll.net>
+Section: Tweaks
+Version: 1.0
+Installed-Size: 300
+Icon: https://chariz.com/cdn/icon/daisy/icon@3x.png
+Depiction: https://repo.chariz.com/package/com.laughingquoll.daisy/
+Filename: debs/com.laughingquoll.daisy_1.0_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.laughingquoll.daisy.html
+Icon: https://imnotsatan.github.io/icons/com.laughingquoll.daisy.png
+Size: 28728
+MD5sum: 85a6da554f928cfa210875544abd3cfa
+SHA1: 8b4c9f041233648c8cc939a3208d78812fd1aa5b
+SHA256: 1b1e69b09e82b2fa7fe856bcabcfe171a436512f9227cc84345ae4b1a938b079
+SHA521: 6d500b9df7458e5c347d9a49e5511aa1276f8a55d598544710bf3668330faa7e09ec992270b6907da40f539dc91c60fe287149cb224e056e3d92ff8fc799a2d7
+
+Package: com.julioverne.wishdia
+Architecture: iphoneos-arm
+Version: 0.0~beta1
+Section: Tweaks
+Maintainer: Julio
+Depends: mobilesubstrate
+Homepage: http://twitter.com/ijulioverne
+Description: Wish List For Cydia
+Name: WishDia
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.wishdia
+Filename: debs/com.julioverne.wishdia_0.0_beta1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.julioverne.wishdia.html
+Icon: https://imnotsatan.github.io/icons/com.julioverne.wishdia.png
+Size: 19078
+MD5sum: 5e3803320f0b4f65c99c4d491157a763
+SHA1: 48f746aad1cf918b2dd0f6822009538550ccfd5f
+SHA256: 082b4b071b45d8ea4fc0a9b592d417d322522c43d8b3f550320f37e81e923cc5
+SHA521: 133c603aaddc134984bbe4c8840c31a2b8a8e0f3fe9fee2ab3c79fd29edfcf232c2c52488db51749609876d9588a01449524773f27e7dcb4374714b3d3ab40eb
 
 Package: com.julioverne.trustdevalert
 Name: trustDevAlert
@@ -228,6 +1470,26 @@ MD5sum: 68982fc100fed530c120b4eb9129af12
 SHA1: db1ff6087eb6e4a48cbef98d8975cf06dd013eaa
 SHA256: 78c8935f929f41060bbd7defcde8c59a4074980e504db4ab45fea1cc96db3657
 SHA521: d1497ddd73ade9ab6e56de2e782e3d03810495257b66d17ff6b94f583324aa8a55823a651ec5f8dcec720a53e659c4f7830d84ce39311e88f118e6ebec2cc47e
+
+Package: com.julioverne.fastuprepo2
+Name: fastUpRepo2
+Author: julioverne
+Version: 0.0~beta1
+Depends: cydia (>> 1.1.27), mobilesubstrate, cy+cpu.arm64
+Architecture: iphoneos-arm
+Description: SpeedUp Cydia Update Sources by blocking download translation.
+Homepage: http://twitter.com/ijulioverne
+Maintainer: Julio
+Section: Tweaks
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.fastuprepo2
+Filename: debs/com.julioverne.fastuprepo2_0.0_beta1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.julioverne.fastuprepo2.html
+Icon: https://imnotsatan.github.io/icons/com.julioverne.fastuprepo2.png
+Size: 68454
+MD5sum: 7a941f51a68c791658eb3961d32698fb
+SHA1: 25581a1c43cb5c3a2743df8a7eb63fab6b61aa6c
+SHA256: 3e3600045d178cfa50500ea8733dd2e6c35355672b65e82fdb456d0594ed1500
+SHA521: f352be760a4a3846736d1db781f992a38ccc0f03309166515dfe23d2e5320d5123faa89deb70f82f33a629dead37901c5c8035457db849e96dac3a20e21ecab9
 
 Package: com.julioverne.fastuprepo
 Name: fastUpRepo
@@ -250,6 +1512,48 @@ SHA1: ea478f755abecdd22c89202ed3233603d2fecfc8
 SHA256: e4db78b345529dce847c855357b95ae59d95e95347a57b8e357772dddcd0c362
 SHA521: 932ec29bd9c222a85eb3e9377f6e28037d62aaea0382f2510ecc9d88f3a94ddcef552c2363b6cef75de78103fc2a04e322dc4ade7295a312cf552acce2f7727d
 
+Author: Zachary Russell, julioverne
+Maintainer: Julio
+Name: Exsto (iOS 11)
+Package: com.julioverne.exsto11
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Conflicts: com.zachatrocity.exsto
+Section: Tweaks
+Version: 0.0.1.2-2
+Architecture: iphoneos-arm
+Description: Unleash your folders
+dev: zachatrocity
+Icon: file:///Library/PreferenceBundles/exsto.bundle/exsto@2x.png
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.exsto11
+Filename: debs/com.julioverne.exsto11_0.0.1.2-2_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.julioverne.exsto11.html
+Icon: https://imnotsatan.github.io/icons/com.julioverne.exsto11.png
+Size: 226142
+MD5sum: cc3682071470c771aa66076847cb1b8d
+SHA1: b85af610564d712eabdc7874202e2f29c0a1fa75
+SHA256: 97f5cc6ee0fd5a8007085b831656171dd1fa478c525efa0e7a07e28b3a8ad74f
+SHA521: 9751a47c5214dc9edba37daa9e8a8d21a2f141cb49e406ca0fc9059bcdc5cd83165d08e0b4743ddbd91f04643afee87875dfbbdea8c41f483b6aa4998174bd78
+
+Package: com.julioverne.celldia
+Name: CellDia
+Author: julioverne
+Version: 0.0~beta5
+Depends: mobilesubstrate, cydia
+Architecture: iphoneos-arm
+Description: Redesigned Cell Cydia
+Homepage: http://twitter.com/ijulioverne
+Maintainer: Julio
+Section: Tweaks
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.celldia
+Filename: debs/com.julioverne.celldia_0.0_beta5_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.julioverne.celldia.html
+Icon: https://imnotsatan.github.io/icons/com.julioverne.celldia.png
+Size: 20012
+MD5sum: 66397cc1ea555845371bf859725a419b
+SHA1: 82119df72671dbaca889a1f765a1c09ae606db32
+SHA256: 03cb7fb18fb13e6553eb79533c26f41a984034e47c8a2f5ce76cce58fa2ab5a7
+SHA521: 056764b49ed3f36fe068356c728c49e89b83e0304e4a618bc300a55959eae4bca5822ea0e490d4e3736e63c85b8815ce349947756db59682976f18e857e31dcf
+
 Package: com.julioverne.cachewipe
 Name: CacheWipe
 Author: julioverne
@@ -270,6 +1574,97 @@ MD5sum: 639d644f47f3ce182a4b62abd59fa997
 SHA1: d107af8d37ec2e304c302b08a806ce16f180d2d7
 SHA256: e00e34bff7a5d64ecf908b69a75033b4988a486a6c64fee599874fbfd2d61185
 SHA521: 82f87a94d66fe236909a08c15ec487cdf36c36039ae71d20a23fb6a62239e9f2a2617b2685e0a2fc73d5dec78c6d70dbf0b41329cc4f6dc258dffff3b467dfc9
+
+Package: com.idevicehacked.miscsettings
+Name: MiscSettings
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist
+Architecture: iphoneos-arm
+Description: So far has 60+ Miscellaneous toggles!
+Maintainer: Lucifers Circle <luciferscircle@gmail.com>
+Author: Lucifers Circle <luciferscircle@gmail.com>
+Section: Tweaks
+Depiction: https://idevicehacked.com/depictions/?p=com.idevicehacked.miscsettings
+SileoDepiction: https://idevicehacked.com/depictions/com.idevicehacked.miscsettings/MiscSettings
+Version: 2.4.2
+Installed-Size: 552
+Filename: debs/com.idevicehacked.miscsettings_2.4.2_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.idevicehacked.miscsettings.html
+Icon: https://imnotsatan.github.io/icons/com.idevicehacked.miscsettings.png
+Size: 63086
+MD5sum: 1e923299cbdb74ca7551076aaf6274c0
+SHA1: ae810a0396e98cdc2baabfec50a9b336c405c5b3
+SHA256: 9e9d8697446c076aafc609cad0beba76efb35ff078f8c3fad515d79a5e92b2a3
+SHA521: e67d038c49ac55ae2bb17af3aeba44c603225082afe75e52988523079b809d7d43a34ab6c4746d4f1928006866abe5bb41ac574d4356336271a4c6414b7a82e8
+
+Author: ichitaso <willfeeltips+qw11@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: QuickWiFi (CCSupport)
+Package: com.ichitaso.quickwifi11
+Pre-Depends: firmware (>= 11.0)
+Conflicts: com.bensge.wipi, com.ichitaso.quickwifi
+Depends: com.opa334.ccsupport, mobilesubstrate
+Section: Addons (ControlCenter)
+Architecture: iphoneos-arm
+Description: Switch Wifi to be connected quickly with CC.
+Depiction: https://cydia.ichitaso.com/depiction/quickwifi11.html
+Homepage: https://ichitaso.com
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: ichitaso
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Icon: file:///Library/ControlCenter/Bundles/QuickWiFiCC.bundle/SettingsIcon@2x.png
+Version: 1.1-5-1
+Installed-Size: 232
+Filename: debs/com.ichitaso.quickwifi11_1.1-5-1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.ichitaso.quickwifi11.html
+Icon: https://imnotsatan.github.io/icons/com.ichitaso.quickwifi11.png
+Size: 28936
+MD5sum: 9f072c6a5875a0c9cf6766ddcc477ea5
+SHA1: 6ac9855308df216f276c5d30a02b2838f69b55ad
+SHA256: 81ff2edd61bc8b27da5ec054d65afbf68c2b042343fb75517685a8c4b4729d87
+SHA521: 55d47a95f1f432e9cc707ecffbe235814cf10dc77d60ddb509af94f6cd8e5af7fab76cbe84206cf1b464036863eb14b5a2609aaec61dc58179a9f5834afd7784
+
+Author: ichitaso
+Maintainer: ichitaso
+Name: QuickWiFi
+Package: com.ichitaso.quickwifi
+Depends: firmware (>= 8.0), mobilesubstrate, com.a3tweaks.flipswitch
+Conflicts: com.bensge.wipi
+Replaces: com.ichitaso.quickwifi
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Switch Wifi to be connected quickly with Flipswitch.
+Depiction: http://ichitaso.com/apt/depiction/quickwifi.html
+Homepage: http://ichitaso.com
+Version: 0.1-1
+Installed-Size: 272
+Filename: debs/com.ichitaso.quickwifi_0.1-1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.ichitaso.quickwifi.html
+Icon: https://imnotsatan.github.io/icons/com.ichitaso.quickwifi.png
+Size: 25766
+MD5sum: d366351e7df3354c31ae7e2cd4b6cd21
+SHA1: 9a2975345c84fdb13b048901133a4032bd713d0a
+SHA256: d7c51ad48a43b96156bfafb7a85ac8618fdc17ace09cc15352452db291db5afb
+SHA521: 53f259932717fbf11e957c9281d7cf50a3939c5c86d709d7b0fe1698e68c31b97db0e5b3b25de4c658d8ed3837b32f972c6e439c395f793e81eee8a9e2068221
+
+Package: com.creaturesurvive.sera
+Name: sera
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Description: A complete LockScreen customization tool (beta)
+Maintainer: CreatureSurvive <dbuehre@me.com>
+Depiction: https://creaturesurvive.github.io/depictions/com.creaturesurvive.sera/index.html
+Author: CreatureSurvive <dbuehre@me.com>
+Section: Tweaks
+Version: 0.6.7
+Installed-Size: 980
+Filename: debs/com.creaturesurvive.sera_0.6.7_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.creaturesurvive.sera.html
+Icon: https://imnotsatan.github.io/icons/com.creaturesurvive.sera.png
+Size: 240300
+MD5sum: 31d17d489bcb8a4eb439049cd0270395
+SHA1: be2a91ce71b9aaa02be83f6c84b31ccb1e211b21
+SHA256: aebafb10e1a8f7d93867a911ec1a0c198bc32eec0fa196899a43a58d90751e0f
+SHA521: 1463ec23003f8305349e597f57b63dead20decaf4adae3c4ee30e3db8245104ed8a45bb4e11fd153ac7a28fe32f4cc42126013548dbe1baeea757b7975a945d9
 
 Package: com.creaturecoding.shuffle
 Name: shuffle
@@ -293,6 +1688,421 @@ SHA1: 36c65c53bf3c06dc75f55378ec509cc6e34bfd77
 SHA256: bbea0d69707d96d51559d8a49937b097e91af6292d4eb2912aebc55f69da7d8f
 SHA521: e0afe4e94d5a79307fb63bfd4f17b7bfde41e96a5057510a9339f26e938745ac5929c718cea411d6718d107c7433026cf4f391a757c322b64b21118c14cc9b86
 
+Package: com.chilaxan.cuboid
+Name: Cuboid
+Depiction: https://idevicehacked.com/depictions/?p=com.chilaxan.cuboid
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: chilaxan
+Author: chilaxan
+Section: Tweaks
+Version: 0.1.1
+Installed-Size: 264
+Filename: debs/com.chilaxan.cuboid_0.1.1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.chilaxan.cuboid.html
+Icon: https://imnotsatan.github.io/icons/com.chilaxan.cuboid.png
+Size: 35676
+MD5sum: 610c184de6033a23164319c8c2b95472
+SHA1: 8287a587ac70b9d13e870848163f84748842d413
+SHA256: a5c60635869f197ebbce4890fd61b02660f0c404db7f12255b266af995e5bde5
+SHA521: a53b58b47e8ae45b2517edee34feb4c7b9c1bd71930c287c2069ef1328998989ce38a5b99300b3e16339d15810ffd3a3ca8329debaf715e2eccaec2a69721076
+
+Architecture: iphoneos-arm
+Package: com.cemck.killx
+Name: KillX
+Version: 1.2
+Depiction: https://cemck.github.io/repo/depiction/web/com.cemck.killx.html
+SileoDepiction: https://cemck.github.io/repo/depiction/native/com.cemck.killx.json
+ModernDepiction: https://cemck.github.io/repo/depiction/native/com.cemck.killx.json
+Icon: https://cemck.github.io/repo/assets/com.cemck.killx/icon.png
+Description: One swipe to kill them all!
+Homepage: https://cemck.github.io/repo
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader
+Conflicts: com.cemck.killx-pro
+Author: cemck <cem_ck@icloud.com>
+Maintainer: cemck <cem_ck@icloud.com>
+Tag: role::enduser
+SomeOtherEntryToControl: True
+Filename: debs/com.cemck.killx.deb
+Depiction: https://imnotsatan.github.io/depictions/com.cemck.killx.html
+Icon: https://imnotsatan.github.io/icons/com.cemck.killx.png
+Size: 79876
+MD5sum: 2c6eaa2a0683b23836a9ffbd3bcdcbd8
+SHA1: 780e7064dd61df5d58aecfb8496dccd04731795f
+SHA256: ed0f16ea315db186463af0cc9e35c62672e0b2b39bb32a5e04a2b3a99daa655e
+SHA521: 063a936c77319fc5e38326602bab76b396c1ba74bbc6f7f0be792f0b45f4361b5354be258e72a770c04c098dd3a99a6926e2a18465840c8c4f63671403bb7a43
+
+Package: com.burritoz.kai
+Name: Kai
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>=1.14)
+Version: 1.4.0
+Architecture: iphoneos-arm
+Description: Device battery indicators on your lock screen!
+Maintainer: burrit0z <carsondzielinski@gmail.com>
+Author: burrit0z <carsondzielinski@gmail.com>
+Section: Tweaks
+Tag: compatible_min::ios12.0
+Icon: https://chariz.com/cdn/icon/kai/icon@3x.png
+Depiction: https://chariz.com/get/kai
+Installed-Size: 712
+Filename: debs/com.burritoz.kai_1.4.0_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.burritoz.kai.html
+Icon: https://imnotsatan.github.io/icons/com.burritoz.kai.png
+Size: 237756
+MD5sum: 3250f1efc1b3c111e3aad05bee829535
+SHA1: b60ad3b3ba17cb3a8a2951b57dad99aac579ae0b
+SHA256: f29889143edd23a12f20435fc993b77d6140d8124e07c973341c12f09f5dbe06
+SHA521: f4dc6b76c6d5adca0e3521510f64f76ade513d7a2220b969a360706cd1014f79469e9880ee1dd8d7c67dc5129d04f489abf7d5613c30af4e13783178d82783a9
+
+Package: com.apextweaks.veza
+Name: Veza
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker
+Version: 1.2.0
+Architecture: iphoneos-arm
+Description: Quick Controls right at your disposal!
+Maintainer: ApexTweaks <support@apextweaks.com>
+Author: ApexTweaks <support@apextweaks.com>
+Section: Tweaks
+Tag: compatible_min::ios11.0
+Icon: https://chariz.com/cdn/icon/veza/icon@3x.png
+Depiction: https://chariz.com/get/veza
+Installed-Size: 5036
+Filename: debs/com.apextweaks.veza_1.2.0_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.apextweaks.veza.html
+Icon: https://imnotsatan.github.io/icons/com.apextweaks.veza.png
+Size: 3211268
+MD5sum: c4a0f6a7e1d80e5c7e3c4e635c86f4cd
+SHA1: 0e7a945fa8e0c1a0b69e89155413277912616303
+SHA256: c9cea24b31cdb8c71a8f67e76d64bb67e0ecef3735856cfab55b1dcf715d1edc
+SHA521: 0c72e0743667f31ff4589b1ae7ffa238df97fcec91ee2810482c76bae887af335a19741436354eb172e96d5d001f527e82d62d004faa156d7563f9bad3213ea5
+
+Package: com.adamseiter.animationsbefast
+Name: AnimationsBeFast
+Author: Adam Seiter
+Description: Speeds up animations
+Depends: mobilesubstrate
+Maintainer: Adam Seiter
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.4.7
+Installed-Size: 324
+Filename: debs/com.adamseiter.animationsbefast.deb
+Depiction: https://imnotsatan.github.io/depictions/com.adamseiter.animationsbefast.html
+Icon: https://imnotsatan.github.io/icons/com.adamseiter.animationsbefast.png
+Size: 28828
+MD5sum: f59cb508957fa726d745a861234a8571
+SHA1: ada46b21aeb2472216cb4c3ebec170e72b7b6672
+SHA256: db070b737f6f57bbd08aea5cb7abf890a992a4b94c941ce7682b164b4f1a3a8e
+SHA521: d40261a4656795905b2d586d18c3d4224c303f035b21fc6d1c705ac0a4bcbef4754baff8c7d2c6fe6d864688aabbd1bb7f0482a3d67bf73935dc50a482a36469
+
+Package: com.mrgcgamer.colormenotifs
+Name: ColorMeNotifs
+Version: 1.5.2
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0), ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker (>= 0.0.14)
+Installed-Size: 1728
+Author: MrGcGamer
+Maintainer: MrGcGamer
+Description: Bring colors to your notifications!
+Filename: debs/colormenotifs.deb
+Depiction: https://imnotsatan.github.io/depictions/com.mrgcgamer.colormenotifs.html
+Icon: https://imnotsatan.github.io/icons/com.mrgcgamer.colormenotifs.png
+Size: 1026458
+MD5sum: ff2931850cab904548ec2e756d37f3eb
+SHA1: c79397f0c96280ab00b138f23eeaad7d50d53b43
+SHA256: 5da19dc18f1eec381e559083eb729e922e370c95fe3437b0af19627e30ba812d
+SHA521: e6b6545b94ee5d3a3708e3044bb617750f3fe244d4743bb6a881398519a4e44e6c973ab45b708594c32332bbf0f1c44441a29491e8198f0f600c3726870c4eff
+
+Author: midey <mideydev@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: ColorMeBaddge
+Package: org.midey.colormebaddge
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Section: Tweaks
+Installed-Size: 1270
+Version: 1.2.0
+Architecture: iphoneos-arm
+Description: Sex up your badges with icon-based colors
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=colormebaddgeDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=colormebaddgeDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: mideydev
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/ColorMeBaddgePrefs.bundle/ColorMeBaddgeIcon@2x.png
+Filename: debs/colormebaddge_1.2.0.deb
+Depiction: https://imnotsatan.github.io/depictions/org.midey.colormebaddge.html
+Icon: https://imnotsatan.github.io/icons/org.midey.colormebaddge.png
+Size: 372648
+MD5sum: 0d0dbd321cc512271f4a9030667b3b25
+SHA1: 9cf844f12a4d6c050c1d574e0518fb6b87558083
+SHA256: a8a5a267092d328ca2482d5d428835c0701f9bdb0f866e76bfed12c79e2d360d
+SHA521: 6c5c78c1b8c02c56cab0c582c00778fc9983061c8ca1b1da2a43e1f22857b5a6b01435271a74cb082695edbd30f9d0b60099767bd21ae478c7c580a4c0104b98
+
+Package: co.dynastic.tsssaver
+Name: TSS Saver
+Architecture: iphoneos-arm
+Description: A one-click tool to save blobs using TSSsaver.1conan.com
+Depiction: https://repo.nullpixel.uk/depiction/co.dynastic.tsssaver/
+Maintainer: Jamie Bishop <jamie@dynastic.co>
+Author: Jamie Bishop <jamie@dynastic.co>
+Section: Utilities
+Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
+Version: 1.2.0
+Installed-Size: 444
+Filename: debs/co.dynastic.TSSsaver.deb
+Depiction: https://imnotsatan.github.io/depictions/co.dynastic.tsssaver.html
+Icon: https://imnotsatan.github.io/icons/co.dynastic.tsssaver.png
+Size: 152032
+MD5sum: fe2e43efaa390e4b81f100175ad1cddb
+SHA1: e669009b17ce74000712124861e4fc0f22d31386
+SHA256: 483f16008726c8882984f014565b921c443d4a39ebc036e1ada981584c7e0c59
+SHA521: 9663b055111d4d99373bd1b12c14239ff50cfd5d1fea9418d0708dab9aec393ef9a9c5ce5878377694562bc7ea3f9d34664f403aeef7a94597455a9a44121327
+
+Name: CleanPasscodeXI
+Package: com.mtac.cleanpasscodexi
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
+Version: 0.0.4-2
+Architecture: iphoneos-arm
+Description: Customize your Passcode screen.
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cleanpasscodexiDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cleanpasscodexiDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: MTAC <mtactheming@gmail.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Installed-Size: 249
+dev: mtactheming
+Icon: file:///Library/PreferenceBundles/cpxiprefs.bundle/icon@2x.png
+Filename: debs/cleanpasscodexi_0.0.4-2.deb
+Depiction: https://imnotsatan.github.io/depictions/com.mtac.cleanpasscodexi.html
+Icon: https://imnotsatan.github.io/icons/com.mtac.cleanpasscodexi.png
+Size: 21540
+MD5sum: acdc5f318dad8eaeb4752cd81a2ae435
+SHA1: 70bff0b5916ccbc32653407f6eaea3c18872ffdf
+SHA256: d0ac6788185ba7d7a056d2890b4715e65fd549015c1c3c646caba9ddbf5996f8
+SHA521: 0008300a9ae5186c6e2233f99fdaf63c431d41d612255a71efef11fb8776f7db805b5cd60595ada03e3ba5e89067482e1c15a65cd04d645a34e5905328077b0c
+
+Package: com.spark.circlesettings
+Name: CircleSettings
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Make all icons in the settings application circular!
+Maintainer: Spark
+Author: Spark
+Section: Tweaks
+Version: 1.0.1
+Installed-Size: 248
+Filename: debs/CircleSettings.deb
+Depiction: https://imnotsatan.github.io/depictions/com.spark.circlesettings.html
+Icon: https://imnotsatan.github.io/icons/com.spark.circlesettings.png
+Size: 4124
+MD5sum: 30ccf48d80bb42c1f7270cc84eb75dbe
+SHA1: 4c15d208d7593f96b8d12460c371a4cdb7c227f7
+SHA256: e280d400a5054e3ad6c2a68b6f82b0eb847f252be90c4c9cb79b660095924114
+SHA521: 6ab2bc57323529c34a933f52a2828d6228f4ef71d1b7b40529bcb56bc67386b54a16e9699ab52d957218a599ff7ec957d06ef276f41700186f04945615c9f473
+
+Package: ch.mdaus.artsy
+Name: Artsy
+Depends: mobilesubstrate, ch.mdaus.utils
+Architecture: iphoneos-arm
+Description: Color your music stuff
+Depiction: http://repo.daus.ch/depictions/?p=ch.mdaus.artsy
+Maintainer: Max Dausch <max.dausch@gmail.com>
+Author: Max Dausch <max.dausch@gmail.com>
+Section: Tweaks
+Version: 2.0~Beta.8
+Installed-Size: 1880
+Filename: debs/ch.mdaus.artsy_2.0_Beta.8_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/ch.mdaus.artsy.html
+Icon: https://imnotsatan.github.io/icons/ch.mdaus.artsy.png
+Size: 652882
+MD5sum: 7be11301bad37b357502692c47eea94e
+SHA1: 42576869acba01c22ad3a471b5f1c344b854ee90
+SHA256: da50939a7e40909cf592a018fbe3344a2276f4bb79ce8ff704694c006ffb101d
+SHA521: 97c3a5108a445d7e5e6db37b89325be7c549039f7481da97d35ad9fd80e8181700ca8075016ea5d94d97b9345ab44716b7a682b3b5e8616352a6e5df9e32cc11
+
+Author: ichitaso <willfeeltips@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: QuickWiFi (CCSupport)
+Package: com.ichitaso.quickwifi11
+Pre-Depends: firmware (>= 11.0)
+Conflicts: com.bensge.wipi, com.ichitaso.quickwifi
+Depends: com.opa334.ccsupport, mobilesubstrate
+Section: Addons (ControlCenter)
+Installed-Size: 226
+Version: 1.1-6
+Architecture: iphoneos-arm
+Description: Switch Wifi to be connected quickly with CC.
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportquickwifiDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportquickwifiDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: ichitaso
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Icon: file:///Library/ControlCenter/Bundles/QuickWiFiCC.bundle/SettingsIcon@2x.png
+Filename: debs/ccsupportquickwifi_1.1-6.deb
+Depiction: https://imnotsatan.github.io/depictions/com.ichitaso.quickwifi11.html
+Icon: https://imnotsatan.github.io/icons/com.ichitaso.quickwifi11.png
+Size: 28234
+MD5sum: 3d2d53d692a33966b867023b13ecdd8f
+SHA1: 8ee99b385f350582a8bb5bf7d076700106475e5e
+SHA256: c0379d1bbe11fb0d65fd9ea44fb214a5a0420d1c438ed7229ca6e5b6f8ef5a3d
+SHA521: 09063a079d206a753fb39c06ea8969fe85177d7146a613e965b151f33852c7d51370fdd423df0b76dedd10d391886a04bb08fba0a379da8f42557c7bf33e9de0
+
+Package: com.laughingquoll.carabiner
+Name: Carabiner
+Version: 0.1
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Installed-Size: 136
+Author: LaughingQuoll
+Maintainer: LaughingQuoll
+Description: A Combined Homescreen Experiance
+Filename: debs/Carabiner.deb
+Depiction: https://imnotsatan.github.io/depictions/com.laughingquoll.carabiner.html
+Icon: https://imnotsatan.github.io/icons/com.laughingquoll.carabiner.png
+Size: 16448
+MD5sum: da49545927ac536397216673bfc50118
+SHA1: 39ec6def807140cbfc98bef50cfdd01eba5c5863
+SHA256: ebc417ab32de593f98d96bf37dadb96b6e070bc946f1e0851bf4dd1bc3b2398a
+SHA521: d4c413ed9ebe050499f616341df384f3293e2250369d2f9208fff584e576250a07267c3e23f41290f4712875ec1f221754e7a26a260e1646964b814824fcf642
+
+Name: CallBlocker
+Package: com.imkpatil.callblocker
+Priority: optional
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Block annoying Callers!
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=callblockerDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=callblockerDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Kiran Patil <patilkiran08@gmail.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios11
+Installed-Size: 196
+dev: imkpatil
+Icon: file:///Library/Application%20Support/CallBlocker/icon.png
+Filename: debs/callblocker_1.1.deb
+Depiction: https://imnotsatan.github.io/depictions/com.imkpatil.callblocker.html
+Icon: https://imnotsatan.github.io/icons/com.imkpatil.callblocker.png
+Size: 24412
+MD5sum: 76fe67bce21054bd32a67673f43d2b8e
+SHA1: ef1a2ff18ff3f16db428053290d89bf82db35876
+SHA256: 416a95fdc09e03abecdb5c4aef4acf0226b3c75354964dd96d81ba74fdc713c4
+SHA521: 065175e660acd7d5123be1b4165cffbd35ffc70e3b07ec9fe042a0f379051eb085e1478fe915b574fc635aa325ccf981bf69c302b0d353213634c4fa199b8ec0
+
+Author: candoizo <andreasmgott@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Bolders
+Package: ca.ndoizo.bolders
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), com.chpwn.iconsupport, preferenceloader
+Section: Tweaks
+Installed-Size: 488
+Version: 1.2.2-2
+Architecture: iphoneos-arm
+Description: Bigger bolder folders
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=boldersDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=boldersDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: candoizo
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/BoldersPrefs.bundle/Icon/Icon@2x.png
+Filename: debs/bolders_1.2.2-2(1).deb
+Depiction: https://imnotsatan.github.io/depictions/ca.ndoizo.bolders.html
+Icon: https://imnotsatan.github.io/icons/ca.ndoizo.bolders.png
+Size: 66614
+MD5sum: f44a4f549c31c5b4f8a6c20de8f49190
+SHA1: 4a373316e50c4cb8f85137b8208e6c3556df6a25
+SHA256: 0a8215038f48d7f9c6717ffd9ebdba4ab2b469fa1892051d72ff99f867a08aed
+SHA521: cb0709814916ea908638f1401707346c1cefbf4cec89360c5a05a2deb0a4ffae2db653549b149a0caabe46a1a80c746d0fe2bf5159d595d77405f7d27e552a67
+
+Package: com.ziph0n.blurredwallpaper
+Name: BlurryPaper
+Version: 1.11-1
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, ws.hbang.common
+Installed-Size: 280
+Author: Ziph0n
+Maintainer: Ziph0n
+Description: Blur your wallpapers
+Filename: debs/BlurryPaper.deb
+Depiction: https://imnotsatan.github.io/depictions/com.ziph0n.blurredwallpaper.html
+Icon: https://imnotsatan.github.io/icons/com.ziph0n.blurredwallpaper.png
+Size: 13572
+MD5sum: 4ff30ebf5a5fc544956123b1f01c32b7
+SHA1: d94660c53404d563b9c588696a43dec209514d96
+SHA256: 5d59f837b5cbb9b826ada88545710dc86bd687726ad73e628157a41194416698
+SHA521: fdf12580aa7c3e843b26b9170203a6a1157fcc4250c32c1710ed5ca8b55ff08817ddcca4ff0e39047b8c0dde2a7097c0ce7a7bc31b4e7cb92cc79e221ef6aa9f
+
+Package: com.vladofficial.blankpass
+Name: Blankpass
+Version: 1.0
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Installed-Size: 264
+Author: VladGeek
+Maintainer: VladGeek
+Description: Blank Password Buttons
+Filename: debs/Blankpass.deb
+Depiction: https://imnotsatan.github.io/depictions/com.vladofficial.blankpass.html
+Icon: https://imnotsatan.github.io/icons/com.vladofficial.blankpass.png
+Size: 3160
+MD5sum: aaa7cf374ea831dc6c3206c9b6048b96
+SHA1: 1aa18f1d04018a6c8b7351011dd3fc45b422c9fb
+SHA256: 1e9df2cb9e3f2c5a25c9c6be27724c9c047fa831971910a8077f3e5c0e3776e9
+SHA521: e8b621c87c360936870f8080abb5d6a3decee6327020bcaa9d2394aad0b6ffa3da37f8c5426fce7a61c7f70c9914ac8f3baa8b65f47f33a303a04c50a18ee75b
+
+Package: com.yakir.bezon
+Name: Bezon
+Version: 1.1
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, ws.hbang.common
+Installed-Size: 1424
+Author: DevelopApple
+Maintainer: @DevelopApple
+Description: Custom charge sounds!
+Filename: debs/benzon.deb
+Depiction: https://imnotsatan.github.io/depictions/com.yakir.bezon.html
+Icon: https://imnotsatan.github.io/icons/com.yakir.bezon.png
+Size: 919362
+MD5sum: 07a70b0f9a0c6ab6e9194cea4cb1a1bb
+SHA1: b74424f0ab0821d206f23f6befaca223e2ce7208
+SHA256: 97fcf02ca74ab8600ba11bb0e4a0a0ce7de43c6415d0afd41f23a5ab7f54e95d
+SHA521: 624a79c1aff0947e454631c3dcbdd77d132f7bbeac535338d2187668afa1482355495eb391ee01f2dbec825d1df2a3fa4ac7ef23abdc515e616c1f624f7b654c
+
+Package: ch.mdaus.artsy
+Name: Artsy
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Provides: ch.mdaus.albumartasbackground
+Replaces: ch.mdaus.albumartasbackground
+Conflicts: ch.mdaus.albumartasbackground
+Description: Modify the Lockscreen, CC, Spotify, and Music app now playing views based on the album artwork.
+Maintainer: Maxwell Dausch <max.dausch@gmail.com>
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Section: Tweaks
+Depiction: http://mdaus.ch/repo/depictions/?p=ch.mdaus.artsy
+Version: 1.2
+Installed-Size: 2804
+Filename: debs/Artsypackix.deb
+Depiction: https://imnotsatan.github.io/depictions/ch.mdaus.artsy.html
+Icon: https://imnotsatan.github.io/icons/ch.mdaus.artsy.png
+Size: 2112800
+MD5sum: c78947bc2fb057ad06d267e7ca8f1164
+SHA1: 77f14d1cb9bae296a656398bcd3dc8dd2545537d
+SHA256: 55e4a87836bd626d7ac15fd0071e7800ebc4d539afe8f1cef1fb9ba8aebbe52d
+SHA521: 1f27c444a0c558aa199f79df38ca997d9352f397e739fe68d3ef7ea7b35fa168ff97594bc58a5de983f27c4cea8ab91d8dc6aef7393937bcadba2c284ce51d07
+
 Package: com.xcxiao.simplels2
 Name: SimpleLS2
 Version: 1.3.1-6
@@ -303,7 +2113,7 @@ Installed-Size: 2524
 Author: XCXiao
 Maintainer: XCXiao
 Description: SimpleLS
-Filename: debs/5e7189ee682928001a2be6ad.deb
+Filename: debs/SimpleLs2.deb
 Depiction: https://imnotsatan.github.io/depictions/com.xcxiao.simplels2.html
 Icon: https://imnotsatan.github.io/icons/com.xcxiao.simplels2.png
 Size: 850896
@@ -322,7 +2132,7 @@ Installed-Size: 172
 Author: ATWiiks
 Maintainer: ATWiiks
 Description: Weather Module for BetterCCXI
-Filename: debs/5d201f3c6f5ead001b791321.deb
+Filename: debs/betterccxiweahter.deb
 Depiction: https://imnotsatan.github.io/depictions/com.atwiiks.betterccxiweather.html
 Icon: https://imnotsatan.github.io/icons/com.atwiiks.betterccxiweather.png
 Size: 15150
@@ -341,7 +2151,7 @@ Installed-Size: 732
 Author: Karimo299
 Maintainer: Karimo299
 Description: Adds the dnd icon under the date, and removes the annoying dnd banner on iOS 12
-Filename: debs/5cd2552e7e3a2d0014108541.deb
+Filename: debs/leavemealone.deb
 Depiction: https://imnotsatan.github.io/depictions/com.karimo299.leavemealone.html
 Icon: https://imnotsatan.github.io/icons/com.karimo299.leavemealone.png
 Size: 339074
@@ -361,7 +2171,7 @@ Author: P2KDev <p2kdev@gmail.com>
 Maintainer: P2KDev <p2kdev@gmail.com>
 Description: Open the settings pane for the CC Toggles by using gestures!
 Icon: file:///Library/Application Support/CCLinker/icon.png
-Filename: debs/5cc9187bb697d3001afdc437.deb
+Filename: debs/cclinker.deb
 Depiction: https://imnotsatan.github.io/depictions/com.imkpatil.cclinker.html
 Icon: https://imnotsatan.github.io/icons/com.imkpatil.cclinker.png
 Size: 26370
@@ -380,7 +2190,7 @@ Installed-Size: 440
 Author: Muirey03
 Maintainer: Muirey03
 Description: Make siri smaller and unobtrusive!
-Filename: debs/5cc8a96b6ee9f4001aa2016f.deb
+Filename: debs/smallsiri.deb
 Depiction: https://imnotsatan.github.io/depictions/com.muirey03.smallsiri.html
 Icon: https://imnotsatan.github.io/icons/com.muirey03.smallsiri.png
 Size: 159466
@@ -399,7 +2209,7 @@ Author: iOS Creatix
 Section: Tweaks
 Version: 1.0.0
 Installed-Size: 120
-Filename: debs/5aa9d27a1318fd403b12c573.deb
+Filename: debs/Sugarcane.deb
 Depiction: https://imnotsatan.github.io/depictions/com.ioscreatix.sugarcane.html
 Icon: https://imnotsatan.github.io/icons/com.ioscreatix.sugarcane.png
 Size: 5490
